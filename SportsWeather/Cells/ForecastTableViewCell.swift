@@ -9,5 +9,6 @@
 import UIKit
 
 class ForecastTableViewCell: UITableViewCell {
+    @IBOutlet var title: UILabel!
     @IBOutlet var scrollView: UIScrollView!
 }
