@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ForecastView" customModule="SportsWeather" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozr-St-Foi">
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="partly_cloudy" translatesAutoresizingMaskIntoConstraints="NO" id="5vJ-DQ-wZV">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="XqQ-Ss-hp1"/>
+                        <constraint firstAttribute="width" constant="35" id="xmj-f7-1Z0"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50º | 62º" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOV-AA-BWm">
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.52549019610000003" green="0.68235294120000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ozr-St-Foi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9ET-8F-2vm"/>
+                <constraint firstItem="hOV-AA-BWm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="IW3-pj-X3T"/>
+                <constraint firstItem="5vJ-DQ-wZV" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="7:20" id="OTH-SP-RuH"/>
+                <constraint firstItem="5vJ-DQ-wZV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bJ4-Aj-zTW"/>
+                <constraint firstItem="5vJ-DQ-wZV" firstAttribute="top" secondItem="ozr-St-Foi" secondAttribute="bottom" constant="10" id="lig-1d-gNX"/>
+                <constraint firstItem="5vJ-DQ-wZV" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="nyi-5K-1Kz"/>
+                <constraint firstItem="hOV-AA-BWm" firstAttribute="top" secondItem="5vJ-DQ-wZV" secondAttribute="bottom" constant="8" id="v0k-dG-jwM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="icon" destination="5vJ-DQ-wZV" id="kqp-7d-zmU"/>
+                <outlet property="temperature" destination="hOV-AA-BWm" id="c8a-G5-VH7"/>
+                <outlet property="title" destination="ozr-St-Foi" id="1ch-LP-gfP"/>
+            </connections>
+            <point key="canvasLocation" x="-35" y="-93"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="partly_cloudy" width="118" height="114"/>
+    </resources>
+</document>
