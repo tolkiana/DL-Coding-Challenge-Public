@@ -13,6 +13,7 @@
 		381D2B6A1E2A8FD100F6ECE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B681E2A8FD100F6ECE6 /* LaunchScreen.storyboard */; };
 		381D2B751E2A8FD200F6ECE6 /* SportsWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B741E2A8FD200F6ECE6 /* SportsWeatherTests.swift */; };
 		381D2B821E2AA88D00F6ECE6 /* CurrentWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B811E2AA88D00F6ECE6 /* CurrentWeatherViewController.swift */; };
+		381D2B861E2AD10200F6ECE6 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B851E2AD10200F6ECE6 /* WeatherDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		381D2B741E2A8FD200F6ECE6 /* SportsWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsWeatherTests.swift; sourceTree = "<group>"; };
 		381D2B761E2A8FD200F6ECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		381D2B811E2AA88D00F6ECE6 /* CurrentWeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentWeatherViewController.swift; path = ViewControllers/CurrentWeatherViewController.swift; sourceTree = "<group>"; };
+		381D2B851E2AD10200F6ECE6 /* WeatherDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherDetailsViewController.swift; path = ViewControllers/WeatherDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				381D2B811E2AA88D00F6ECE6 /* CurrentWeatherViewController.swift */,
+				381D2B851E2AD10200F6ECE6 /* WeatherDetailsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				381D2B821E2AA88D00F6ECE6 /* CurrentWeatherViewController.swift in Sources */,
 				381D2B601E2A8FD100F6ECE6 /* AppDelegate.swift in Sources */,
+				381D2B861E2AD10200F6ECE6 /* WeatherDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
