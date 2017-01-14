@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CurrentWeatherViewController.swift
 //  SportsWeather
 //
 //  Created by Nelida Velazquez on 1/14/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CurrentWeatherViewController: UIViewController {
 
 }
 
