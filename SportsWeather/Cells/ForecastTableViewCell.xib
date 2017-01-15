@@ -34,7 +34,7 @@
                     <constraint firstAttribute="bottom" secondItem="5se-DA-4zc" secondAttribute="bottom" id="qis-mR-nKS"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" red="0.52549019610000003" green="0.68235294120000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="scrollView" destination="5se-DA-4zc" id="upA-f9-Chw"/>
                 <outlet property="title" destination="c7V-0E-Af7" id="RRb-Wt-A96"/>
