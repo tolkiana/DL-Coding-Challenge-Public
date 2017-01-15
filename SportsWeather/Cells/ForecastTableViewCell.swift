@@ -11,4 +11,21 @@ import UIKit
 class ForecastTableViewCell: UITableViewCell {
     @IBOutlet var title: UILabel!
     @IBOutlet var scrollView: UIScrollView!
+    
+    func configure(withForecastGroup forecastGroup: ForecastGroupViewModel) {
+        self.clearForecasts()
+        self.title.text = forecastGroup.title
+        for forecast in forecastGroup.forecasts {
+            let forecastView = ForecastView.instance(withForecast: forecast)
+            scrollView.addSubview(forecastView)
+        }
+    }
+    
+    // MARK: Private
+    
+    func clearForecasts() {
+        for subView in self.scrollView.subviews {
+            subView.removeFromSuperview()
+        }
+    }
 }
