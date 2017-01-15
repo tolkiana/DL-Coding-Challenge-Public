@@ -29,6 +29,7 @@
 		381D2BBE1E2B12E200F6ECE6 /* ConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BBD1E2B12E200F6ECE6 /* ConditionsViewController.swift */; };
 		381D2BC01E2B36E200F6ECE6 /* ForecastGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BBF1E2B36E200F6ECE6 /* ForecastGroupViewModel.swift */; };
 		381D2BC31E2BDFC600F6ECE6 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BC21E2BDFC600F6ECE6 /* CitiesViewController.swift */; };
+		384AD1191E2BFFA400361908 /* AddMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD1181E2BFFA400361908 /* AddMoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		381D2BBD1E2B12E200F6ECE6 /* ConditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionsViewController.swift; sourceTree = "<group>"; };
 		381D2BBF1E2B36E200F6ECE6 /* ForecastGroupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastGroupViewModel.swift; sourceTree = "<group>"; };
 		381D2BC21E2BDFC600F6ECE6 /* CitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		384AD1181E2BFFA400361908 /* AddMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		381D2B801E2AA80300F6ECE6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				384AD1171E2BFF5C00361908 /* AddMoreViewController */,
 				381D2BC11E2BDF8100F6ECE6 /* CitiesViewController */,
 				381D2BBC1E2B12C800F6ECE6 /* ConditionsViewController */,
 				381D2BAF1E2B05D000F6ECE6 /* DetailsViewController */,
@@ -235,6 +238,15 @@
 			path = ViewControllers/CitiesViewController;
 			sourceTree = "<group>";
 		};
+		384AD1171E2BFF5C00361908 /* AddMoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				384AD1181E2BFFA400361908 /* AddMoreViewController.swift */,
+			);
+			name = AddMoreViewController;
+			path = ViewControllers/AddMoreViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -285,6 +297,7 @@
 				TargetAttributes = {
 					381D2B5B1E2A8FD100F6ECE6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6ZX8Q22G36;
 						ProvisioningStyle = Automatic;
 					};
 					381D2B6F1E2A8FD200F6ECE6 = {
@@ -353,6 +366,7 @@
 				381D2B601E2A8FD100F6ECE6 /* AppDelegate.swift in Sources */,
 				381D2B891E2AD1B400F6ECE6 /* ForecastView.swift in Sources */,
 				381D2BBB1E2B0E8400F6ECE6 /* DetailsDelegate.swift in Sources */,
+				384AD1191E2BFFA400361908 /* AddMoreViewController.swift in Sources */,
 				381D2BA31E2AE65A00F6ECE6 /* Constants.swift in Sources */,
 				381D2BB81E2B0B6F00F6ECE6 /* DetailsDataSource.swift in Sources */,
 			);
@@ -492,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZX8Q22G36;
 				INFOPLIST_FILE = SportsWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tolkiana.SportsWeather;
@@ -504,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZX8Q22G36;
 				INFOPLIST_FILE = SportsWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tolkiana.SportsWeather;
