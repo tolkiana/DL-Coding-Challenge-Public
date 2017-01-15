@@ -30,6 +30,7 @@
 		381D2BC01E2B36E200F6ECE6 /* ForecastGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BBF1E2B36E200F6ECE6 /* ForecastGroupViewModel.swift */; };
 		381D2BC31E2BDFC600F6ECE6 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BC21E2BDFC600F6ECE6 /* CitiesViewController.swift */; };
 		384AD1191E2BFFA400361908 /* AddMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD1181E2BFFA400361908 /* AddMoreViewController.swift */; };
+		384AD11B1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD11A1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		381D2BBF1E2B36E200F6ECE6 /* ForecastGroupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastGroupViewModel.swift; sourceTree = "<group>"; };
 		381D2BC21E2BDFC600F6ECE6 /* CitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
 		384AD1181E2BFFA400361908 /* AddMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoreViewController.swift; sourceTree = "<group>"; };
+		384AD11A1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoreViewControllerConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			children = (
 				381D2BA21E2AE65A00F6ECE6 /* Constants.swift */,
 				381D2BB41E2B082900F6ECE6 /* DetailsViewControllerConstants.swift */,
+				384AD11A1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				381D2BA01E2AE08800F6ECE6 /* ForecastViewModel.swift in Sources */,
 				381D2BC31E2BDFC600F6ECE6 /* CitiesViewController.swift in Sources */,
 				381D2BA61E2AE97300F6ECE6 /* Date+Utils.swift in Sources */,
+				384AD11B1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift in Sources */,
 				381D2BBE1E2B12E200F6ECE6 /* ConditionsViewController.swift in Sources */,
 				381D2BC01E2B36E200F6ECE6 /* ForecastGroupViewModel.swift in Sources */,
 				381D2B601E2A8FD100F6ECE6 /* AppDelegate.swift in Sources */,
