@@ -23,9 +23,10 @@
 		381D2BA31E2AE65A00F6ECE6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BA21E2AE65A00F6ECE6 /* Constants.swift */; };
 		381D2BA61E2AE97300F6ECE6 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BA51E2AE97300F6ECE6 /* Date+Utils.swift */; };
 		381D2BAB1E2AEB0400F6ECE6 /* Date+UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BAA1E2AEB0400F6ECE6 /* Date+UtilsTests.swift */; };
-		381D2BB51E2B082900F6ECE6 /* DetailsTableViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BB41E2B082900F6ECE6 /* DetailsTableViewConstants.swift */; };
+		381D2BB51E2B082900F6ECE6 /* DetailsViewControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BB41E2B082900F6ECE6 /* DetailsViewControllerConstants.swift */; };
 		381D2BB81E2B0B6F00F6ECE6 /* DetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BB61E2B0B6F00F6ECE6 /* DetailsDataSource.swift */; };
 		381D2BB91E2B0B6F00F6ECE6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BB71E2B0B6F00F6ECE6 /* DetailsViewController.swift */; };
+		381D2BBB1E2B0E8400F6ECE6 /* DetailsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BBA1E2B0E8400F6ECE6 /* DetailsDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +60,10 @@
 		381D2BA21E2AE65A00F6ECE6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		381D2BA51E2AE97300F6ECE6 /* Date+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
 		381D2BAA1E2AEB0400F6ECE6 /* Date+UtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+UtilsTests.swift"; sourceTree = "<group>"; };
-		381D2BB41E2B082900F6ECE6 /* DetailsTableViewConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewConstants.swift; sourceTree = "<group>"; };
+		381D2BB41E2B082900F6ECE6 /* DetailsViewControllerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewControllerConstants.swift; sourceTree = "<group>"; };
 		381D2BB61E2B0B6F00F6ECE6 /* DetailsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsDataSource.swift; sourceTree = "<group>"; };
 		381D2BB71E2B0B6F00F6ECE6 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		381D2BBA1E2B0E8400F6ECE6 /* DetailsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				381D2BA21E2AE65A00F6ECE6 /* Constants.swift */,
-				381D2BB41E2B082900F6ECE6 /* DetailsTableViewConstants.swift */,
+				381D2BB41E2B082900F6ECE6 /* DetailsViewControllerConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -203,6 +205,7 @@
 			children = (
 				381D2BB61E2B0B6F00F6ECE6 /* DetailsDataSource.swift */,
 				381D2BB71E2B0B6F00F6ECE6 /* DetailsViewController.swift */,
+				381D2BBA1E2B0E8400F6ECE6 /* DetailsDelegate.swift */,
 			);
 			name = DetailsViewController;
 			path = ViewControllers/DetailsViewController;
@@ -318,11 +321,12 @@
 				381D2B981E2AD81E00F6ECE6 /* ForecastTableViewCell.swift in Sources */,
 				381D2B9C1E2AD9D000F6ECE6 /* MapTableViewCell.swift in Sources */,
 				381D2BB91E2B0B6F00F6ECE6 /* DetailsViewController.swift in Sources */,
-				381D2BB51E2B082900F6ECE6 /* DetailsTableViewConstants.swift in Sources */,
+				381D2BB51E2B082900F6ECE6 /* DetailsViewControllerConstants.swift in Sources */,
 				381D2BA01E2AE08800F6ECE6 /* ForecastViewModel.swift in Sources */,
 				381D2BA61E2AE97300F6ECE6 /* Date+Utils.swift in Sources */,
 				381D2B601E2A8FD100F6ECE6 /* AppDelegate.swift in Sources */,
 				381D2B891E2AD1B400F6ECE6 /* ForecastView.swift in Sources */,
+				381D2BBB1E2B0E8400F6ECE6 /* DetailsDelegate.swift in Sources */,
 				381D2BA31E2AE65A00F6ECE6 /* Constants.swift in Sources */,
 				381D2BB81E2B0B6F00F6ECE6 /* DetailsDataSource.swift in Sources */,
 			);
