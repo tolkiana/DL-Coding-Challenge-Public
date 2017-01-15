@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Current Weather View Controller-->
+        <!--Conditions View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="CurrentWeatherViewController" customModule="SportsWeather" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ConditionsViewController" customModule="SportsWeather" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -120,7 +120,6 @@
         <!--Details View Controller-->
         <scene sceneID="Qs3-BK-yQB">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HLF-ey-N2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="5NH-mg-hRk" customClass="DetailsViewController" customModule="SportsWeather" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="z61-EO-OqD"/>
@@ -146,6 +145,7 @@
                         <outlet property="tableView" destination="Uuu-ZV-CVv" id="97u-Pn-Jo9"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HLF-ey-N2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="853.62318840579712" y="138.58695652173915"/>
         </scene>
