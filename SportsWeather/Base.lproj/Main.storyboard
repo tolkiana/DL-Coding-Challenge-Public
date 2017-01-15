@@ -572,7 +572,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5c8-v2-AAS">
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5c8-v2-AAS">
                                                     <rect key="frame" x="0.0" y="39" width="414" height="101"/>
                                                     <color key="backgroundColor" red="0.47563209509999999" green="0.64462060519999997" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                                 </scrollView>
@@ -663,22 +663,22 @@
                                 <rect key="frame" x="137" y="251.99999999999997" width="140.33333333333331" height="62.333333333333286"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="59º" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Oqb-a1-rwY">
-                                        <rect key="frame" x="0.33333333333334281" y="0.0" width="84.333333333333343" height="62.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="84.333333333333343" height="62.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="52"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="if3-SX-Beq">
-                                        <rect key="frame" x="99.666666666666686" y="9.3333333333333144" width="40.999999999999972" height="43.666666666666686"/>
+                                        <rect key="frame" x="99.333333333333343" y="9.3333333333333144" width="40.999999999999972" height="43.666666666666686"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Lr7-ZL-ywV" userLabel="Max Temperature">
-                                                <rect key="frame" x="0.33333333333334281" y="0.0" width="40.999999999999972" height="19.333333333333371"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="40.999999999999972" height="19.333333333333371"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_up" translatesAutoresizingMaskIntoConstraints="NO" id="kcl-dC-zrp">
-                                                        <rect key="frame" x="0.33333333333334281" y="4.3333333333333712" width="11" height="11"/>
+                                                        <rect key="frame" x="0.0" y="4.3333333333333712" width="11" height="11"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="65º" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Tm9-D3-O5V">
-                                                        <rect key="frame" x="14.333333333333343" y="0.0" width="26.999999999999972" height="19.333333333333371"/>
+                                                        <rect key="frame" x="14" y="0.0" width="26.999999999999972" height="19.333333333333371"/>
                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -686,13 +686,13 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="hsu-VF-7lD" userLabel="Min Temperature">
-                                                <rect key="frame" x="0.33333333333334281" y="24.333333333333371" width="40.999999999999972" height="19.333333333333314"/>
+                                                <rect key="frame" x="0.0" y="24.333333333333371" width="40.999999999999972" height="19.333333333333314"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_down" translatesAutoresizingMaskIntoConstraints="NO" id="1Vt-N8-JvB">
-                                                        <rect key="frame" x="0.33333333333334281" y="4.3333333333333144" width="11" height="11"/>
+                                                        <rect key="frame" x="0.0" y="4.3333333333333144" width="11" height="11"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="59º" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ScY-ZS-omF">
-                                                        <rect key="frame" x="14.333333333333343" y="0.0" width="26.999999999999972" height="19.333333333333314"/>
+                                                        <rect key="frame" x="14" y="0.0" width="26.999999999999972" height="19.333333333333314"/>
                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -821,22 +821,22 @@
                                 <rect key="frame" x="139.66666666666669" y="260" width="135.00000000000006" height="62.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="72º" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VpJ-A3-TlF">
-                                        <rect key="frame" x="0.33333333333331439" y="0.0" width="80.333333333333343" height="62.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="80.333333333333343" height="62.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="52"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="LlU-tL-x2d">
-                                        <rect key="frame" x="95.666666666666657" y="9.3333333333333144" width="39.666666666666686" height="43.666666666666686"/>
+                                        <rect key="frame" x="95.333333333333343" y="9.3333333333333144" width="39.666666666666686" height="43.666666666666686"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="JkZ-Gz-4U1" userLabel="Max Temperature">
-                                                <rect key="frame" x="0.33333333333334281" y="0.0" width="39.666666666666686" height="19.333333333333371"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="39.666666666666686" height="19.333333333333371"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_up" translatesAutoresizingMaskIntoConstraints="NO" id="4kP-kD-dtc">
-                                                        <rect key="frame" x="0.33333333333334281" y="4" width="11" height="11"/>
+                                                        <rect key="frame" x="0.0" y="4.3333333333333712" width="11" height="11"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="72º" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FW4-iH-VAU">
-                                                        <rect key="frame" x="14.333333333333343" y="0.0" width="25.666666666666686" height="19.333333333333371"/>
+                                                        <rect key="frame" x="14" y="0.0" width="25.666666666666686" height="19.333333333333371"/>
                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -844,13 +844,13 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="G85-Ko-QLk" userLabel="Min Temperature">
-                                                <rect key="frame" x="0.33333333333334281" y="24.333333333333371" width="39.666666666666686" height="19.333333333333314"/>
+                                                <rect key="frame" x="0.0" y="24.333333333333371" width="39.666666666666686" height="19.333333333333314"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_down" translatesAutoresizingMaskIntoConstraints="NO" id="M57-gm-Dwc">
-                                                        <rect key="frame" x="0.33333333333334281" y="4" width="10.333333333333343" height="11"/>
+                                                        <rect key="frame" x="0.0" y="4.3333333333333144" width="10.666666666666657" height="11"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="58º" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0xk-4A-9cf">
-                                                        <rect key="frame" x="13.666666666666686" y="0.0" width="26.333333333333343" height="19.333333333333314"/>
+                                                        <rect key="frame" x="13.666666666666657" y="0.0" width="26.000000000000028" height="19.333333333333314"/>
                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -979,22 +979,22 @@
                                 <rect key="frame" x="137.33333333333337" y="260" width="139.66666666666663" height="62.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="62º" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="62o-x7-qyg">
-                                        <rect key="frame" x="0.33333333333334281" y="0.0" width="83.333333333333314" height="62.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="83.333333333333314" height="62.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="52"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OmF-zP-XDZ">
-                                        <rect key="frame" x="98.666666666666657" y="9.3333333333333144" width="41.333333333333343" height="43.666666666666686"/>
+                                        <rect key="frame" x="98.333333333333314" y="9.3333333333333144" width="41.333333333333343" height="43.666666666666686"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="vme-Yl-emR" userLabel="Max Temperature">
-                                                <rect key="frame" x="0.33333333333331439" y="0.0" width="41.333333333333343" height="19.333333333333371"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="41.333333333333343" height="19.333333333333371"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_up" translatesAutoresizingMaskIntoConstraints="NO" id="pgW-Cp-vEM">
-                                                        <rect key="frame" x="0.33333333333331439" y="4" width="11" height="11"/>
+                                                        <rect key="frame" x="0.0" y="4.3333333333333712" width="11" height="11"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="66º" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2Kq-10-yZt">
-                                                        <rect key="frame" x="14.333333333333314" y="0.0" width="27.333333333333343" height="19.333333333333371"/>
+                                                        <rect key="frame" x="14" y="0.0" width="27.333333333333343" height="19.333333333333371"/>
                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -1002,13 +1002,13 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="rnc-9K-vqu" userLabel="Min Temperature">
-                                                <rect key="frame" x="0.33333333333331439" y="24.333333333333371" width="41.333333333333343" height="19.333333333333314"/>
+                                                <rect key="frame" x="0.0" y="24.333333333333371" width="41.333333333333343" height="19.333333333333314"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_down" translatesAutoresizingMaskIntoConstraints="NO" id="7eY-iF-CoM">
-                                                        <rect key="frame" x="0.33333333333331439" y="4" width="11" height="11"/>
+                                                        <rect key="frame" x="0.0" y="4.3333333333333144" width="11" height="11"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="58º" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9EH-Gc-PBS">
-                                                        <rect key="frame" x="14.333333333333314" y="0.0" width="27.333333333333343" height="19.333333333333314"/>
+                                                        <rect key="frame" x="14" y="0.0" width="27.333333333333343" height="19.333333333333314"/>
                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>

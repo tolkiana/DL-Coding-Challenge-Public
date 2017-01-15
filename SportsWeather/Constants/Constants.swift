@@ -29,4 +29,11 @@ struct Constants {
         static let partlyCoudly = "partly_cloudy"
         static let sunny = "sunny"
     }
+    
+    struct ForecastTableViewCell {
+        static let leadingSpace: Float = 15
+        static let viewPadding: Float = 5
+        static let viewWidth: Float = 80
+        static let viewHeight: Float = 100
+    }
 }
