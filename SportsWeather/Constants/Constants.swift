@@ -10,10 +10,6 @@ import Foundation
 
 struct Constants {
     
-    struct Segues {
-        static let detailsTransition = "detailsTransition"
-    }
-    
     struct Storyboard {
         static let main: String = "Main"
         
@@ -24,6 +20,8 @@ struct Constants {
             static let saltLakeViewController = "saltLakeViewController"
         }
         
-        struct Segues {}
+        struct Segues {
+            static let detailsTransition = "detailsTransition"
+        }
     }
 }

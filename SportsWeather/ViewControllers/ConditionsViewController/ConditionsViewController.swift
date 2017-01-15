@@ -15,7 +15,7 @@ class ConditionsViewController: UIViewController {
     }
     
     func showWeatherDetails(_ sender: UITapGestureRecognizer) {
-        self.performSegue(withIdentifier: Constants.Segues.detailsTransition, sender: self)
+        self.performSegue(withIdentifier: Constants.Storyboard.Segues.detailsTransition, sender: self)
     }
     
     // MARK: Private methods
