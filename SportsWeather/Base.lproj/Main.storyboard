@@ -222,10 +222,10 @@
                                         <rect key="frame" x="0.0" y="28" width="414" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Z78-DM-cJP" id="NJx-gy-vxs">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="87.666666666666671"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skii" translatesAutoresizingMaskIntoConstraints="NO" id="69e-6Y-GPm">
+                                                <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ann_arbor_cell" translatesAutoresizingMaskIntoConstraints="NO" id="69e-6Y-GPm">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ODK-mo-mFu" userLabel="City">
@@ -293,10 +293,10 @@
                                         <rect key="frame" x="0.0" y="116" width="414" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7E0-az-kCn" id="4cS-6g-fi0">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="87.666666666666671"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sourfing" translatesAutoresizingMaskIntoConstraints="NO" id="e1L-1E-RVa">
+                                                <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="los_angeles_cell" translatesAutoresizingMaskIntoConstraints="NO" id="e1L-1E-RVa">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="S18-ck-wi4" userLabel="City">
@@ -364,10 +364,10 @@
                                         <rect key="frame" x="0.0" y="204" width="414" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3vZ-lN-ylm" id="ct9-g8-Oh7">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="87.666666666666671"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="biking" translatesAutoresizingMaskIntoConstraints="NO" id="TdC-F8-9b4">
+                                                <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seatle_cell" translatesAutoresizingMaskIntoConstraints="NO" id="TdC-F8-9b4">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="i4f-QF-o28" userLabel="City">
@@ -435,10 +435,10 @@
                                         <rect key="frame" x="0.0" y="292" width="414" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WFP-XY-9cA" id="AGo-Y3-Gll">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="87.666666666666671"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="climbing" translatesAutoresizingMaskIntoConstraints="NO" id="POF-er-jAM">
+                                                <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="salt_lake_cell" translatesAutoresizingMaskIntoConstraints="NO" id="POF-er-jAM">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hYq-xU-6bw" userLabel="City">
@@ -471,7 +471,7 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="A2G-Q0-ukE" userLabel="Temperature">
-                                                    <rect key="frame" x="338.33333333333326" y="10" width="60.666666666666686" height="68"/>
+                                                    <rect key="frame" x="338.33333333333326" y="11" width="60.666666666666686" height="66"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="62º" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Le7-lX-A4g">
                                                             <rect key="frame" x="0.0" y="0.0" width="60.666666666666686" height="48"/>
@@ -480,10 +480,10 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camp" translatesAutoresizingMaskIntoConstraints="NO" id="eGD-gm-biU">
-                                                            <rect key="frame" x="40.666666666666686" y="48" width="20" height="20"/>
+                                                            <rect key="frame" x="40.666666666666686" y="48" width="20" height="18"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="20" id="95b-SW-onA"/>
-                                                                <constraint firstAttribute="height" constant="20" id="Gfi-PL-3vb"/>
+                                                                <constraint firstAttribute="height" constant="18" id="Gfi-PL-3vb"/>
                                                             </constraints>
                                                         </imageView>
                                                     </subviews>
@@ -508,7 +508,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="0.94722521550000005" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="92p-Kn-Pzb" firstAttribute="trailing" secondItem="KEb-PQ-qfT" secondAttribute="trailingMargin" constant="5" id="1e2-Kw-JEy"/>
                             <constraint firstAttribute="trailing" secondItem="IXY-0n-pNZ" secondAttribute="trailing" id="ReF-tM-9ns"/>
@@ -1036,15 +1036,19 @@
     </scenes>
     <resources>
         <image name="add_icon" width="20" height="20"/>
+        <image name="ann_arbor_cell" width="360" height="67"/>
         <image name="arrow_down" width="11" height="11"/>
         <image name="arrow_up" width="11" height="11"/>
         <image name="bike" width="32" height="28"/>
         <image name="biking" width="360" height="640"/>
         <image name="camp" width="27" height="24"/>
         <image name="climbing" width="360" height="640"/>
+        <image name="los_angeles_cell" width="360" height="66"/>
         <image name="menu" width="20" height="20"/>
         <image name="partly_cloudy" width="171" height="120"/>
         <image name="rain" width="138" height="120"/>
+        <image name="salt_lake_cell" width="359" height="66"/>
+        <image name="seatle_cell" width="360" height="67"/>
         <image name="settings_icon" width="20" height="20"/>
         <image name="skii" width="360" height="640"/>
         <image name="skii_icon" width="30" height="29"/>
