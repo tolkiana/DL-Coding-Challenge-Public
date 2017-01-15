@@ -27,6 +27,7 @@
 		381D2BB91E2B0B6F00F6ECE6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BB71E2B0B6F00F6ECE6 /* DetailsViewController.swift */; };
 		381D2BBB1E2B0E8400F6ECE6 /* DetailsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BBA1E2B0E8400F6ECE6 /* DetailsDelegate.swift */; };
 		381D2BBE1E2B12E200F6ECE6 /* ConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BBD1E2B12E200F6ECE6 /* ConditionsViewController.swift */; };
+		381D2BC01E2B36E200F6ECE6 /* ForecastGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BBF1E2B36E200F6ECE6 /* ForecastGroupViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		381D2BB71E2B0B6F00F6ECE6 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		381D2BBA1E2B0E8400F6ECE6 /* DetailsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsDelegate.swift; sourceTree = "<group>"; };
 		381D2BBD1E2B12E200F6ECE6 /* ConditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionsViewController.swift; sourceTree = "<group>"; };
+		381D2BBF1E2B36E200F6ECE6 /* ForecastGroupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastGroupViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				381D2B9F1E2AE08800F6ECE6 /* ForecastViewModel.swift */,
+				381D2BBF1E2B36E200F6ECE6 /* ForecastGroupViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				381D2BA01E2AE08800F6ECE6 /* ForecastViewModel.swift in Sources */,
 				381D2BA61E2AE97300F6ECE6 /* Date+Utils.swift in Sources */,
 				381D2BBE1E2B12E200F6ECE6 /* ConditionsViewController.swift in Sources */,
+				381D2BC01E2B36E200F6ECE6 /* ForecastGroupViewModel.swift in Sources */,
 				381D2B601E2A8FD100F6ECE6 /* AppDelegate.swift in Sources */,
 				381D2B891E2AD1B400F6ECE6 /* ForecastView.swift in Sources */,
 				381D2BBB1E2B0E8400F6ECE6 /* DetailsDelegate.swift in Sources */,
