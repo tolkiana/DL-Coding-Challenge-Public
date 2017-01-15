@@ -112,10 +112,13 @@
                             <constraint firstItem="nx8-cW-MbP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zNj-rH-vCg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="5NH-mg-hRk" kind="presentation" identifier="detailsTransition" id="dRq-Ku-9Gr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="138.98050974512745"/>
+            <point key="canvasLocation" x="38" y="139"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="Qs3-BK-yQB">

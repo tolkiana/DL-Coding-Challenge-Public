@@ -10,4 +10,7 @@ import Foundation
 
 struct Constants {
     
+    struct Segues {
+        static let detailsTransition = "detailsTransition"
+    }
 }
