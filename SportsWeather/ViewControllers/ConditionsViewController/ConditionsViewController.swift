@@ -12,7 +12,6 @@ class ConditionsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.createTapRecognizer()
     }
     
     func showWeatherDetails(_ sender: UITapGestureRecognizer) {
