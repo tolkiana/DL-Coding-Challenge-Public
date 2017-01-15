@@ -11,6 +11,7 @@ import Foundation
 struct DetailsViewControllerConstants {
     static let numberOfSections = 3
     static let numberOfRows = 1
+    static let estimatedRowHeight: Float = 100
     
     enum Sections: Int {
         case hourlyForecast
@@ -22,5 +23,18 @@ struct DetailsViewControllerConstants {
         static let hourlyForecastCell = "hourlyForecastCell"
         static let dailyForecastCell = "dailyForecastCell"
         static let weatherMapCell = "weatherMapCell"
+    }
+    
+    struct NibNames {
+        static let forecastTableView = "ForecastTableViewCell"
+        static let mapTableView = "MapTableViewCell"
+    }
+    
+    struct ForecastCell {
+        static let height = 145
+    }
+    
+    struct MapCell {
+        static let height = 250
     }
 }
