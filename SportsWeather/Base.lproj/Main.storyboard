@@ -136,12 +136,12 @@
                                 <color key="backgroundColor" red="0.52549019610000003" green="0.68235294120000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.52549019610000003" green="0.68235294120000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Uuu-ZV-CVv" secondAttribute="trailing" id="AtC-VC-aIb"/>
                             <constraint firstItem="ReW-x7-Djq" firstAttribute="top" secondItem="Uuu-ZV-CVv" secondAttribute="bottom" id="Ucc-6g-5XM"/>
                             <constraint firstItem="Uuu-ZV-CVv" firstAttribute="leading" secondItem="F1n-Np-0Rx" secondAttribute="leading" id="vBD-lB-x94"/>
-                            <constraint firstItem="Uuu-ZV-CVv" firstAttribute="top" secondItem="F1n-Np-0Rx" secondAttribute="top" id="wWj-SO-eWZ"/>
+                            <constraint firstItem="Uuu-ZV-CVv" firstAttribute="top" secondItem="F1n-Np-0Rx" secondAttribute="top" constant="20" id="wWj-SO-eWZ"/>
                         </constraints>
                     </view>
                     <connections>
