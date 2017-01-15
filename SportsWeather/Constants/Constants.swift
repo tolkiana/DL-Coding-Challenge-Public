@@ -24,4 +24,9 @@ struct Constants {
             static let detailsTransition = "detailsTransition"
         }
     }
+    
+    struct Images {
+        static let partlyCoudly = "partly_cloudy"
+        static let sunny = "sunny"
+    }
 }
