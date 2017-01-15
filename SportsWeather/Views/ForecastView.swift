@@ -13,13 +13,15 @@ class ForecastView: UIView {
     @IBOutlet var icon: UIImageView!
     @IBOutlet var temperature: UILabel!
     
-    class func instanceFromNib() -> ForecastView {
-        return UINib(nibName: "ForecastView", bundle: nil).instantiate(withOwner: nil, options: nil).first as! ForecastView
+    class func instance(withForecast forecast: ForecastViewModel) -> ForecastView {
+        let instance = UINib(nibName: "ForecastView", bundle: nil).instantiate(withOwner: nil, options: nil).first as! ForecastView
+        instance.configure(withForecast: forecast)
+        return instance
     }
     
-    func configure(with forecastViewModel: ForecastViewModel) {
-        self.title.text = forecastViewModel.title
-        self.temperature.text = forecastViewModel.value
-        self.icon.image = forecastViewModel.icon
+    func configure(withForecast forecast: ForecastViewModel) {
+        self.title.text = forecast.title
+        self.temperature.text = forecast.value
+        self.icon.image = forecast.icon
     }
 }
