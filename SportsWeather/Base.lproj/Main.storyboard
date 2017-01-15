@@ -11,7 +11,7 @@
         <!--Cities View Controller-->
         <scene sceneID="iou-7E-1j3">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="DU2-dj-eth" customClass="CitiesViewController" customModule="SportsWeather" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="none" id="DU2-dj-eth" customClass="CitiesViewController" customModule="SportsWeather" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k2e-vJ-sWq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-774" y="314"/>
