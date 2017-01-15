@@ -10,5 +10,4 @@ import UIKit
 
 class MapTableViewCell: UITableViewCell {
     @IBOutlet var map: UIImageView!
-    @IBOutlet var title: UILabel!
 }
