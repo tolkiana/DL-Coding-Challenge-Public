@@ -1,5 +1,5 @@
 //
-//  WeatherDetailsTableViewConstants.swift
+//  DetailsViewControllerConstants.swift
 //  SportsWeather
 //
 //  Created by Nelida Velazquez on 1/14/17.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct DetailsTableViewConstants {
+struct DetailsViewControllerConstants {
     static let numberOfSections = 3
     static let numberOfRows = 1
     
