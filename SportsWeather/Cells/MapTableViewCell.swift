@@ -9,5 +9,6 @@
 import UIKit
 
 class MapTableViewCell: UITableViewCell {
+    @IBOutlet var title: UILabel!
     @IBOutlet var map: UIImageView!
 }
