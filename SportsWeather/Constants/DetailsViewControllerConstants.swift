@@ -9,7 +9,7 @@
 import Foundation
 
 struct DetailsViewControllerConstants {
-    static let numberOfSections = 3
+    static let numberOfSections = 2
     static let numberOfRows = 1
     static let estimatedRowHeight: Float = 100
     
@@ -20,8 +20,7 @@ struct DetailsViewControllerConstants {
     }
     
     struct CellIdentifiers {
-        static let hourlyForecastCell = "hourlyForecastCellIdentifier"
-        static let dailyForecastCell = "dailyForecastCellIdentifier"
+        static let forecastCell = "forecastCellIdentifier"
         static let weatherMapCell = "weatherMapCellIdentifier"
     }
 }
