@@ -10,5 +10,20 @@ import UIKit
 
 class ConditionsViewController: UIViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.createTapRecognizer()
+    }
+    
+    func showWeatherDetails(_ sender: UITapGestureRecognizer) {
+        self.performSegue(withIdentifier: Constants.Segues.detailsTransition, sender: self)
+    }
+    
+    // MARK: Private methods
+    
+    private func createTapRecognizer() {
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.showWeatherDetails(_:)))
+        self.view.addGestureRecognizer(tapRecognizer)
+    }
 }
 
