@@ -16,4 +16,10 @@ class ForecastView: UIView {
     class func instanceFromNib() -> ForecastView {
         return UINib(nibName: "ForecastView", bundle: nil).instantiate(withOwner: nil, options: nil).first as! ForecastView
     }
+    
+    func configure(with forecastViewModel: ForecastViewModel) {
+        self.title.text = forecastViewModel.title
+        self.temperature.text = forecastViewModel.value
+        self.icon.image = forecastViewModel.icon
+    }
 }
