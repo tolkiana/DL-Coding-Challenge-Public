@@ -125,6 +125,7 @@
                             <constraint firstItem="nx8-cW-MbP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zNj-rH-vCg"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -267,6 +268,7 @@
                             <constraint firstItem="18b-B5-HU6" firstAttribute="top" secondItem="WQl-Qi-ex9" secondAttribute="top" id="z1u-Z1-oAh"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Yu-lH-RkG" sceneMemberID="firstResponder"/>
             </objects>
@@ -381,6 +383,7 @@
                             <constraint firstAttribute="trailing" secondItem="d5H-tz-S2S" secondAttribute="trailing" id="rlv-Fi-N6a"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ykh-Ol-uDg" sceneMemberID="firstResponder"/>
             </objects>
@@ -495,6 +498,7 @@
                             <constraint firstItem="ART-TR-Opa" firstAttribute="leading" secondItem="Y4b-tE-Hcz" secondAttribute="leading" id="zXX-K8-Kld"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29m-nF-de6" sceneMemberID="firstResponder"/>
             </objects>
