@@ -15,6 +15,7 @@ struct Constants {
     }
     
     struct Storyboard {
+        static let main: String = "Main"
         
         struct ViewControllers {
             static let annArborViewController = "annArborViewController"
