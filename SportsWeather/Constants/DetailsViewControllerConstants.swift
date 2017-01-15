@@ -20,9 +20,9 @@ struct DetailsViewControllerConstants {
     }
     
     struct CellIdentifiers {
-        static let hourlyForecastCell = "hourlyForecastCell"
-        static let dailyForecastCell = "dailyForecastCell"
-        static let weatherMapCell = "weatherMapCell"
+        static let hourlyForecastCell = "hourlyForecastCellIdentifier"
+        static let dailyForecastCell = "dailyForecastCellIdentifier"
+        static let weatherMapCell = "weatherMapCellIdentifier"
     }
     
     struct NibNames {
