@@ -48,4 +48,17 @@ struct ForecastViewModel {
         self.value = "\(minTemperature)º | \(maxTemperature)º"
         self.icon =  UIImage(named: iconName)
     }
+    
+    
+    /// Temporary initializer to create forecast for demo.
+    ///
+    /// - Parameters:
+    ///   - title:       Forecast Title
+    ///   - iconName:    IconName
+    ///   - temperature: Temperature
+    init(title: String, iconName: String, temperature: Float) {
+        self.title = title
+        self.value = "\(temperature)º"
+        self.icon =  UIImage(named: iconName)
+    }
 }
