@@ -1,5 +1,5 @@
 //
-//  DetailsViewController.swift
+//  WeatherDetailsViewController.swift
 //  SportsWeather
 //
 //  Created by Nelida Velazquez on 1/14/17.
@@ -8,10 +8,8 @@
 
 import UIKit
 
-class DetailsViewController: UIViewController {
+class WeatherDetailsViewController: UIViewController {
     @IBOutlet var tableView: UITableView!
     
-    var dataSource = DetailsDataSource()
-    var delegate = DetailsDelegate()
     
 }
