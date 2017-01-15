@@ -31,15 +31,15 @@ class AddMoreViewController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.row {
         case AddMoreViewControllerConstants.Rows.annArbor.rawValue:
-            return tableView.dequeueReusableCell(withIdentifier: Constants.Storyboard.Cells.annArborCell)!
+            return tableView.dequeueReusableCell(withIdentifier: AddMoreViewControllerConstants.CellsIdentifiers.annArborCell)!
         case AddMoreViewControllerConstants.Rows.losAngeles.rawValue:
-            return tableView.dequeueReusableCell(withIdentifier: Constants.Storyboard.Cells.losAngelesCell)!
+            return tableView.dequeueReusableCell(withIdentifier: AddMoreViewControllerConstants.CellsIdentifiers.losAngelesCell)!
         case AddMoreViewControllerConstants.Rows.seatle.rawValue:
-            return tableView.dequeueReusableCell(withIdentifier: Constants.Storyboard.Cells.seatleCell)!
+            return tableView.dequeueReusableCell(withIdentifier: AddMoreViewControllerConstants.CellsIdentifiers.seatleCell)!
         case AddMoreViewControllerConstants.Rows.saltLakeCity.rawValue:
-            return tableView.dequeueReusableCell(withIdentifier: Constants.Storyboard.Cells.saltLakeCell)!
+            return tableView.dequeueReusableCell(withIdentifier: AddMoreViewControllerConstants.CellsIdentifiers.saltLakeCell)!
         default:
-            return tableView.dequeueReusableCell(withIdentifier: Constants.Storyboard.Cells.annArborCell)!
+            return tableView.dequeueReusableCell(withIdentifier: AddMoreViewControllerConstants.CellsIdentifiers.annArborCell)!
         }
     }
 

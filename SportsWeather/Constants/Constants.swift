@@ -23,13 +23,5 @@ struct Constants {
         struct Segues {
             static let detailsTransition = "detailsTransition"
         }
-        
-        struct Cells {
-            static let annArborCell = "annArborCell"
-            static let losAngelesCell = "losAngelesCell"
-            static let seatleCell = "seatleCell"
-            static let saltLakeCell = "saltLakeCell"
-        }
-
     }
 }
