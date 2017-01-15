@@ -13,4 +13,16 @@ struct Constants {
     struct Segues {
         static let detailsTransition = "detailsTransition"
     }
+    
+    struct Storyboard {
+        
+        struct ViewControllers {
+            static let annArborViewController = "annArborViewController"
+            static let losAngelesViewController = "losAngelesViewController"
+            static let seatleViewController = "seatleViewController"
+            static let saltLakeViewController = "saltLakeViewController"
+        }
+        
+        struct Segues {}
+    }
 }
