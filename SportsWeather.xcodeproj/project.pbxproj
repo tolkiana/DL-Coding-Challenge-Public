@@ -15,9 +15,7 @@
 		381D2B891E2AD1B400F6ECE6 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B881E2AD1B400F6ECE6 /* ForecastView.swift */; };
 		381D2B8B1E2AD1CD00F6ECE6 /* ForecastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B8A1E2AD1CD00F6ECE6 /* ForecastView.xib */; };
 		381D2B981E2AD81E00F6ECE6 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B961E2AD81E00F6ECE6 /* ForecastTableViewCell.swift */; };
-		381D2B991E2AD81E00F6ECE6 /* ForecastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B971E2AD81E00F6ECE6 /* ForecastTableViewCell.xib */; };
 		381D2B9C1E2AD9D000F6ECE6 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B9A1E2AD9D000F6ECE6 /* MapTableViewCell.swift */; };
-		381D2B9D1E2AD9D000F6ECE6 /* MapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B9B1E2AD9D000F6ECE6 /* MapTableViewCell.xib */; };
 		381D2BA01E2AE08800F6ECE6 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B9F1E2AE08800F6ECE6 /* ForecastViewModel.swift */; };
 		381D2BA31E2AE65A00F6ECE6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BA21E2AE65A00F6ECE6 /* Constants.swift */; };
 		381D2BA61E2AE97300F6ECE6 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BA51E2AE97300F6ECE6 /* Date+Utils.swift */; };
@@ -56,9 +54,7 @@
 		381D2B881E2AD1B400F6ECE6 /* ForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
 		381D2B8A1E2AD1CD00F6ECE6 /* ForecastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForecastView.xib; sourceTree = "<group>"; };
 		381D2B961E2AD81E00F6ECE6 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
-		381D2B971E2AD81E00F6ECE6 /* ForecastTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForecastTableViewCell.xib; sourceTree = "<group>"; };
 		381D2B9A1E2AD9D000F6ECE6 /* MapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
-		381D2B9B1E2AD9D000F6ECE6 /* MapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapTableViewCell.xib; sourceTree = "<group>"; };
 		381D2B9F1E2AE08800F6ECE6 /* ForecastViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 		381D2BA21E2AE65A00F6ECE6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		381D2BA51E2AE97300F6ECE6 /* Date+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
@@ -170,9 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				381D2B961E2AD81E00F6ECE6 /* ForecastTableViewCell.swift */,
-				381D2B971E2AD81E00F6ECE6 /* ForecastTableViewCell.xib */,
 				381D2B9A1E2AD9D000F6ECE6 /* MapTableViewCell.swift */,
-				381D2B9B1E2AD9D000F6ECE6 /* MapTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -334,11 +328,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				381D2B991E2AD81E00F6ECE6 /* ForecastTableViewCell.xib in Resources */,
 				381D2B6A1E2A8FD100F6ECE6 /* LaunchScreen.storyboard in Resources */,
 				381D2B671E2A8FD100F6ECE6 /* Assets.xcassets in Resources */,
 				381D2B651E2A8FD100F6ECE6 /* Main.storyboard in Resources */,
-				381D2B9D1E2AD9D000F6ECE6 /* MapTableViewCell.xib in Resources */,
 				381D2B8B1E2AD1CD00F6ECE6 /* ForecastView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

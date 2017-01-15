@@ -24,17 +24,4 @@ struct DetailsViewControllerConstants {
         static let dailyForecastCell = "dailyForecastCellIdentifier"
         static let weatherMapCell = "weatherMapCellIdentifier"
     }
-    
-    struct NibNames {
-        static let forecastTableView = "ForecastTableViewCell"
-        static let mapTableView = "MapTableViewCell"
-    }
-    
-    struct ForecastCell {
-        static let height = 145
-    }
-    
-    struct MapCell {
-        static let height = 250
-    }
 }
