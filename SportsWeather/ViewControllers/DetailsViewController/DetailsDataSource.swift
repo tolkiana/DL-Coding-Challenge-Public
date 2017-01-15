@@ -31,18 +31,4 @@ class DetailsDataSource: NSObject, UITableViewDataSource {
             return cell
         }
     }
-    
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        switch section {
-        case DetailsViewControllerConstants.Sections.hourlyForecast.rawValue:
-            return NSLocalizedString("Today", comment: "Localized name for hourly forecast")
-        case DetailsViewControllerConstants.Sections.dailyForecast.rawValue:
-            return NSLocalizedString("Forecast", comment: "Localized name for hourly forecast")
-        case DetailsViewControllerConstants.Sections.weatherMap.rawValue:
-            return NSLocalizedString("Weather Map", comment: "Localized name for hourly forecast")
-        default:
-            return ""
-        }
-    }
-
 }
