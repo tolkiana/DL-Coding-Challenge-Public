@@ -28,8 +28,8 @@ struct ForecastViewModel {
     /// - parameter temperature: Temperature for the given hour
     ///
     /// - returns: a ForecastViewModel object.
-    init(date: NSDate, iconName: String, temperature: Float) {
-        self.title = ""
+    init(date: Date, iconName: String, temperature: Float) {
+        self.title = date.hourString
         self.value = "\(temperature)º"
         self.icon =  UIImage(named: iconName)
     }
@@ -43,8 +43,8 @@ struct ForecastViewModel {
     /// - parameter maxTemperature: Maximum temperature of the day
     ///
     /// - returns: <#return value description#>
-    init(date: NSDate, iconName: String, minTemperature: Float, maxTemperature: Float) {
-        self.title = ""
+    init(date: Date, iconName: String, minTemperature: Float, maxTemperature: Float) {
+        self.title = date.dayNameString
         self.value = "\(minTemperature)º | \(maxTemperature)º"
         self.icon =  UIImage(named: iconName)
     }
