@@ -42,7 +42,7 @@ struct ForecastViewModel {
     /// - parameter minTemperature: Minimum temperature of the day
     /// - parameter maxTemperature: Maximum temperature of the day
     ///
-    /// - returns: <#return value description#>
+    /// - returns: a ForecastViewModel object.
     init(date: Date, iconName: String, minTemperature: Float, maxTemperature: Float) {
         self.title = date.dayNameString
         self.value = "\(minTemperature)º | \(maxTemperature)º"
