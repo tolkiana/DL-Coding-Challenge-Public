@@ -21,10 +21,12 @@ class DetailsDataSource: NSObject, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.section {
         case DetailsViewControllerConstants.Sections.hourlyForecast.rawValue:
-            let cell: ForecastTableViewCell = tableView.dequeueReusableCell(withIdentifier: DetailsViewControllerConstants.CellIdentifiers.hourlyForecastCell) as! ForecastTableViewCell
+            let cell: ForecastTableViewCell = tableView.dequeueReusableCell(withIdentifier: DetailsViewControllerConstants.CellIdentifiers.forecastCell) as! ForecastTableViewCell
+            cell.configure(withForecastGroup: ForecastDataSource.hourlyForecast())
             return cell
         case DetailsViewControllerConstants.Sections.dailyForecast.rawValue:
-            let cell: ForecastTableViewCell = tableView.dequeueReusableCell(withIdentifier: DetailsViewControllerConstants.CellIdentifiers.dailyForecastCell) as! ForecastTableViewCell
+            let cell: ForecastTableViewCell = tableView.dequeueReusableCell(withIdentifier: DetailsViewControllerConstants.CellIdentifiers.forecastCell) as! ForecastTableViewCell
+            cell.configure(withForecastGroup: ForecastDataSource.dailyForecast())
             return cell
         default:
             let cell: MapTableViewCell = tableView.dequeueReusableCell(withIdentifier: DetailsViewControllerConstants.CellIdentifiers.weatherMapCell) as! MapTableViewCell
