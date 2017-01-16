@@ -30,6 +30,7 @@
 		384AD11B1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD11A1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift */; };
 		384AD11E1E2C340C00361908 /* ForecastDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD11D1E2C340C00361908 /* ForecastDataSource.swift */; };
 		384AD1221E2C49B800361908 /* DetailsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD1211E2C49B800361908 /* DetailsDelegate.swift */; };
+		384AD1241E2C56A100361908 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD1231E2C56A100361908 /* UIView+Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		384AD11A1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoreViewControllerConstants.swift; sourceTree = "<group>"; };
 		384AD11D1E2C340C00361908 /* ForecastDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastDataSource.swift; sourceTree = "<group>"; };
 		384AD1211E2C49B800361908 /* DetailsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsDelegate.swift; sourceTree = "<group>"; };
+		384AD1231E2C56A100361908 /* UIView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				381D2BA51E2AE97300F6ECE6 /* Date+Utils.swift */,
+				384AD1231E2C56A100361908 /* UIView+Animations.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				384AD11B1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift in Sources */,
 				381D2BBE1E2B12E200F6ECE6 /* ConditionsViewController.swift in Sources */,
 				381D2BC01E2B36E200F6ECE6 /* ForecastGroupViewModel.swift in Sources */,
+				384AD1241E2C56A100361908 /* UIView+Animations.swift in Sources */,
 				384AD1221E2C49B800361908 /* DetailsDelegate.swift in Sources */,
 				381D2B601E2A8FD100F6ECE6 /* AppDelegate.swift in Sources */,
 				381D2B891E2AD1B400F6ECE6 /* ForecastView.swift in Sources */,
