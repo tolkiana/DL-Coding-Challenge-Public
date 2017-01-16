@@ -39,8 +39,9 @@ struct Constants {
     
     struct Animations {
         static let fadeInDuration: TimeInterval = 2.0
-        static let slideInDuration: TimeInterval = 1.0
-        static let slideOutMoreInfoDuration: TimeInterval = 2.0
-        static let slideOutDuration: TimeInterval = 2.0
+        static let slideOutDuration: TimeInterval = 1.0
+        static let slideInMoreInfoDuration: TimeInterval = 3.0
+        static let slideOutMoreInfoDuration: TimeInterval = 3.0
+        static let slideOutMoreInfoDelay: TimeInterval = 3.0
     }
 }
