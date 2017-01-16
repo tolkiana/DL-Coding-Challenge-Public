@@ -10,6 +10,8 @@ import UIKit
 
 class CitiesViewController: UIPageViewController, UIPageViewControllerDataSource {
 
+    // MARK: View life cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupPageController()
