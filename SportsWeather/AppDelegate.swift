@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let content = UNMutableNotificationContent()
         content.title = "Good Morning Nelida"
-        content.body = "Today is a great day for biking! It's 65º in Ann Arbor"
+        content.body = "Today is a great day for biking!\n It's 65º in Ann Arbor ⛅️"
         content.categoryIdentifier = "customIdentifier"
         content.userInfo = ["customData": "fizzbuzz"]
         content.sound = UNNotificationSound.default()
