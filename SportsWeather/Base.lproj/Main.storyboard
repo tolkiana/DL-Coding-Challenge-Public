@@ -599,6 +599,45 @@
                                             <outlet property="title" destination="PUQ-IY-4qr" id="aGU-Hq-3uA"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="weatherMapCellIdentifier" rowHeight="345" id="Ji0-Xf-F3L" customClass="MapTableViewCell" customModule="SportsWeather" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="168" width="414" height="345"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ji0-Xf-F3L" id="IZX-Qa-sCB">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="345"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Map" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8cv-jn-RUR">
+                                                    <rect key="frame" x="18" y="10" width="118" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bR-10-KYs">
+                                                    <rect key="frame" x="0.0" y="39" width="414" height="305.66666666666669"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lnb-2v-ABS">
+                                                            <rect key="frame" x="87" y="85" width="240" height="128"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="3bR-10-KYs" firstAttribute="leading" secondItem="IZX-Qa-sCB" secondAttribute="leading" id="0WT-yQ-BFJ"/>
+                                                <constraint firstItem="3bR-10-KYs" firstAttribute="top" secondItem="8cv-jn-RUR" secondAttribute="bottom" constant="5" id="50L-G6-UY6"/>
+                                                <constraint firstItem="8cv-jn-RUR" firstAttribute="leading" secondItem="IZX-Qa-sCB" secondAttribute="leadingMargin" constant="10" id="ApL-cH-est"/>
+                                                <constraint firstAttribute="trailing" secondItem="3bR-10-KYs" secondAttribute="trailing" id="KiZ-aC-8IU"/>
+                                                <constraint firstItem="8cv-jn-RUR" firstAttribute="top" secondItem="IZX-Qa-sCB" secondAttribute="topMargin" constant="2" id="cCV-8N-zM4"/>
+                                                <constraint firstAttribute="bottom" secondItem="3bR-10-KYs" secondAttribute="bottom" id="lXF-hb-tXi"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="map" destination="lnb-2v-ABS" id="h3k-DA-zF4"/>
+                                            <outlet property="title" destination="8cv-jn-RUR" id="mc4-BO-COc"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkP-35-77s">
