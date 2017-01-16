@@ -9,7 +9,7 @@
 import Foundation
 
 struct DetailsViewControllerConstants {
-    static let numberOfSections = 2
+    static let numberOfSections = 3
     static let numberOfRows = 1
     static let estimatedRowHeight: Float = 100
     
