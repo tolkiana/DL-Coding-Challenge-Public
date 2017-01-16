@@ -42,7 +42,7 @@ extension UIView {
     func slideInAnimation(duration: TimeInterval, completion: (() -> Void)?) {
         let originalFrame = self.frame
         var frame = self.frame
-        frame.origin.y = originalFrame.origin.y + originalFrame.size.height/3
+        frame.origin.y = originalFrame.origin.y + originalFrame.size.height/2
         self.frame = frame
         
         let animationsBlock = {
@@ -66,10 +66,10 @@ extension UIView {
     /// - Parameters:
     ///   - duration: Duration for the animation
     ///   - completion: Aditional code to execute after the animation finished
-    func slideOutAnimation(duration: TimeInterval, delay:TimeInterval, completion: (() -> Void)?) {
+    func slideOutAnimation(duration: TimeInterval, completion: (() -> Void)?) {
         let originalFrame = self.frame
         var frame = self.frame
-        frame.origin.y = originalFrame.origin.y - originalFrame.size.height/3
+        frame.origin.y = originalFrame.origin.y - originalFrame.size.height/2
         
         let animationsBlock = {
             self.frame = frame
