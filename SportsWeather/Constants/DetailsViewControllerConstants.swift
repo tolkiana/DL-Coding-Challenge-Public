@@ -23,4 +23,12 @@ struct DetailsViewControllerConstants {
         static let forecastCell = "forecastCellIdentifier"
         static let weatherMapCell = "weatherMapCellIdentifier"
     }
+    
+    struct ForecastCell {
+        static let height = 140
+    }
+    
+    struct MapCell {
+        static let height = 345
+    }
 }
