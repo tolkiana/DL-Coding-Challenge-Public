@@ -29,6 +29,6 @@ struct DetailsViewControllerConstants {
     }
     
     struct MapCell {
-        static let height = 345
+        static let height = 315
     }
 }
