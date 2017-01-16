@@ -56,7 +56,7 @@ struct ForecastViewModel {
     ///   - title:       Forecast Title
     ///   - iconName:    IconName
     ///   - temperature: Temperature
-    init(title: String, iconName: String, temperature: Float) {
+    init(title: String, iconName: String, temperature: String) {
         self.title = title
         self.value = "\(temperature)º"
         self.icon =  UIImage(named: iconName)
