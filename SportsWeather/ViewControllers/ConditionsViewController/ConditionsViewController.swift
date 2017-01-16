@@ -14,5 +14,12 @@ class ConditionsViewController: UIViewController {
     @IBOutlet var moreInfoTitle: UILabel!
     @IBOutlet var moreInfoValue: UILabel!
     @IBOutlet var moreInfoView: UIStackView!
+    
+    // MARK: View life cycle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.startAnimations()
+    }
 }
 
