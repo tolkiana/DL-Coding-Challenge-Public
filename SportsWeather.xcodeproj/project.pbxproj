@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		381D2B601E2A8FD100F6ECE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B5F1E2A8FD100F6ECE6 /* AppDelegate.swift */; };
-		381D2B651E2A8FD100F6ECE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B631E2A8FD100F6ECE6 /* Main.storyboard */; };
 		381D2B671E2A8FD100F6ECE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B661E2A8FD100F6ECE6 /* Assets.xcassets */; };
-		381D2B6A1E2A8FD100F6ECE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B681E2A8FD100F6ECE6 /* LaunchScreen.storyboard */; };
 		381D2B751E2A8FD200F6ECE6 /* SportsWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B741E2A8FD200F6ECE6 /* SportsWeatherTests.swift */; };
 		381D2B891E2AD1B400F6ECE6 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B881E2AD1B400F6ECE6 /* ForecastView.swift */; };
 		381D2B8B1E2AD1CD00F6ECE6 /* ForecastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B8A1E2AD1CD00F6ECE6 /* ForecastView.xib */; };
@@ -26,6 +24,8 @@
 		381D2BBE1E2B12E200F6ECE6 /* ConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BBD1E2B12E200F6ECE6 /* ConditionsViewController.swift */; };
 		381D2BC01E2B36E200F6ECE6 /* ForecastGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BBF1E2B36E200F6ECE6 /* ForecastGroupViewModel.swift */; };
 		381D2BC31E2BDFC600F6ECE6 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BC21E2BDFC600F6ECE6 /* CitiesViewController.swift */; };
+		3828C6E31E2C6E8D00E1C500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3828C6E11E2C6E8D00E1C500 /* LaunchScreen.storyboard */; };
+		3828C6E41E2C6E8D00E1C500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3828C6E21E2C6E8D00E1C500 /* Main.storyboard */; };
 		384AD1191E2BFFA400361908 /* AddMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD1181E2BFFA400361908 /* AddMoreViewController.swift */; };
 		384AD11B1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD11A1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift */; };
 		384AD11E1E2C340C00361908 /* ForecastDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD11D1E2C340C00361908 /* ForecastDataSource.swift */; };
@@ -47,9 +47,7 @@
 /* Begin PBXFileReference section */
 		381D2B5C1E2A8FD100F6ECE6 /* SportsWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381D2B5F1E2A8FD100F6ECE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		381D2B641E2A8FD100F6ECE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		381D2B661E2A8FD100F6ECE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		381D2B691E2A8FD100F6ECE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		381D2B6B1E2A8FD100F6ECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		381D2B701E2A8FD200F6ECE6 /* SportsWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		381D2B741E2A8FD200F6ECE6 /* SportsWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsWeatherTests.swift; sourceTree = "<group>"; };
@@ -68,6 +66,8 @@
 		381D2BBD1E2B12E200F6ECE6 /* ConditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionsViewController.swift; sourceTree = "<group>"; };
 		381D2BBF1E2B36E200F6ECE6 /* ForecastGroupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastGroupViewModel.swift; sourceTree = "<group>"; };
 		381D2BC21E2BDFC600F6ECE6 /* CitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		3828C6E11E2C6E8D00E1C500 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3828C6E21E2C6E8D00E1C500 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		384AD1181E2BFFA400361908 /* AddMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoreViewController.swift; sourceTree = "<group>"; };
 		384AD11A1E2C0DCE00361908 /* AddMoreViewControllerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoreViewControllerConstants.swift; sourceTree = "<group>"; };
 		384AD11D1E2C340C00361908 /* ForecastDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastDataSource.swift; sourceTree = "<group>"; };
@@ -115,6 +115,7 @@
 		381D2B5E1E2A8FD100F6ECE6 /* SportsWeather */ = {
 			isa = PBXGroup;
 			children = (
+				3828C6E01E2C6E7900E1C500 /* Storyboards */,
 				384AD11C1E2C33D700361908 /* Core */,
 				381D2BA41E2AE91400F6ECE6 /* Extensions */,
 				381D2BA11E2AE2A400F6ECE6 /* Constants */,
@@ -124,9 +125,7 @@
 				381D2B9E1E2ADFFD00F6ECE6 /* ViewModels */,
 				381D2B7F1E2AA76900F6ECE6 /* Models */,
 				381D2B5F1E2A8FD100F6ECE6 /* AppDelegate.swift */,
-				381D2B631E2A8FD100F6ECE6 /* Main.storyboard */,
 				381D2B661E2A8FD100F6ECE6 /* Assets.xcassets */,
-				381D2B681E2A8FD100F6ECE6 /* LaunchScreen.storyboard */,
 				381D2B6B1E2A8FD100F6ECE6 /* Info.plist */,
 			);
 			path = SportsWeather;
@@ -244,6 +243,15 @@
 			path = ViewControllers/CitiesViewController;
 			sourceTree = "<group>";
 		};
+		3828C6E01E2C6E7900E1C500 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3828C6E11E2C6E8D00E1C500 /* LaunchScreen.storyboard */,
+				3828C6E21E2C6E8D00E1C500 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		384AD1171E2BFF5C00361908 /* AddMoreViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,10 +353,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				381D2B6A1E2A8FD100F6ECE6 /* LaunchScreen.storyboard in Resources */,
+				3828C6E31E2C6E8D00E1C500 /* LaunchScreen.storyboard in Resources */,
 				381D2B671E2A8FD100F6ECE6 /* Assets.xcassets in Resources */,
-				381D2B651E2A8FD100F6ECE6 /* Main.storyboard in Resources */,
 				381D2B8B1E2AD1CD00F6ECE6 /* ForecastView.xib in Resources */,
+				3828C6E41E2C6E8D00E1C500 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,25 +414,6 @@
 			targetProxy = 381D2B711E2A8FD200F6ECE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		381D2B631E2A8FD100F6ECE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				381D2B641E2A8FD100F6ECE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		381D2B681E2A8FD100F6ECE6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				381D2B691E2A8FD100F6ECE6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		381D2B771E2A8FD200F6ECE6 /* Debug */ = {
