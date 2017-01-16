@@ -603,7 +603,7 @@
                                         <rect key="frame" x="0.0" y="168" width="414" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ji0-Xf-F3L" id="IZX-Qa-sCB">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="314.66666666666669"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Map" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8cv-jn-RUR">
@@ -615,29 +615,17 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bR-10-KYs">
-                                                    <rect key="frame" x="0.0" y="39" width="414" height="275.66666666666669"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_holder_map" translatesAutoresizingMaskIntoConstraints="NO" id="lnb-2v-ABS">
-                                                            <rect key="frame" x="10" y="5" width="394" height="265.66666666666669"/>
-                                                        </imageView>
-                                                    </subviews>
-                                                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="bottom" secondItem="lnb-2v-ABS" secondAttribute="bottom" constant="5" id="1Hp-Zh-ViU"/>
-                                                        <constraint firstAttribute="trailing" secondItem="lnb-2v-ABS" secondAttribute="trailing" constant="10" id="21X-7E-6Wl"/>
-                                                        <constraint firstItem="lnb-2v-ABS" firstAttribute="leading" secondItem="3bR-10-KYs" secondAttribute="leading" constant="10" id="5xd-kD-YzJ"/>
-                                                        <constraint firstItem="lnb-2v-ABS" firstAttribute="top" secondItem="3bR-10-KYs" secondAttribute="top" constant="5" id="fLx-gb-Beb"/>
-                                                    </constraints>
-                                                </view>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_holder_map" translatesAutoresizingMaskIntoConstraints="NO" id="lnb-2v-ABS">
+                                                    <rect key="frame" x="0.0" y="39" width="414" height="276"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="3bR-10-KYs" firstAttribute="leading" secondItem="IZX-Qa-sCB" secondAttribute="leading" id="0WT-yQ-BFJ"/>
-                                                <constraint firstItem="3bR-10-KYs" firstAttribute="top" secondItem="8cv-jn-RUR" secondAttribute="bottom" constant="5" id="50L-G6-UY6"/>
                                                 <constraint firstItem="8cv-jn-RUR" firstAttribute="leading" secondItem="IZX-Qa-sCB" secondAttribute="leadingMargin" constant="10" id="ApL-cH-est"/>
-                                                <constraint firstAttribute="trailing" secondItem="3bR-10-KYs" secondAttribute="trailing" id="KiZ-aC-8IU"/>
+                                                <constraint firstAttribute="trailing" secondItem="lnb-2v-ABS" secondAttribute="trailing" id="ap3-kJ-Qg0"/>
+                                                <constraint firstItem="lnb-2v-ABS" firstAttribute="top" secondItem="8cv-jn-RUR" secondAttribute="bottom" constant="5" id="bNr-YV-yBI"/>
                                                 <constraint firstItem="8cv-jn-RUR" firstAttribute="top" secondItem="IZX-Qa-sCB" secondAttribute="topMargin" constant="2" id="cCV-8N-zM4"/>
-                                                <constraint firstAttribute="bottom" secondItem="3bR-10-KYs" secondAttribute="bottom" id="lXF-hb-tXi"/>
+                                                <constraint firstItem="lnb-2v-ABS" firstAttribute="leading" secondItem="IZX-Qa-sCB" secondAttribute="leading" id="g1z-uR-Rev"/>
+                                                <constraint firstAttribute="bottom" secondItem="lnb-2v-ABS" secondAttribute="bottom" id="u1v-Qd-bYX"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -682,7 +670,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HLF-ey-N2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1228" y="8"/>
+            <point key="canvasLocation" x="-1228.985507246377" y="7.3369565217391308"/>
         </scene>
         <!--Conditions View Controller-->
         <scene sceneID="THk-iN-Mcf">
@@ -1242,7 +1230,7 @@
                                         <rect key="frame" x="0.0" y="168" width="414" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2t4-Ir-GaW" id="dNZ-Mg-J0e">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="314.66666666666669"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Map" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aCP-D5-lKj">
@@ -1254,29 +1242,17 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V4U-rB-DBZ">
-                                                    <rect key="frame" x="0.0" y="39" width="414" height="275.66666666666669"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_holder_map" translatesAutoresizingMaskIntoConstraints="NO" id="FZQ-dB-bBI">
-                                                            <rect key="frame" x="10" y="5" width="394" height="265.66666666666669"/>
-                                                        </imageView>
-                                                    </subviews>
-                                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstItem="FZQ-dB-bBI" firstAttribute="top" secondItem="V4U-rB-DBZ" secondAttribute="top" constant="5" id="Eyi-gP-VNs"/>
-                                                        <constraint firstAttribute="bottom" secondItem="FZQ-dB-bBI" secondAttribute="bottom" constant="5" id="GBs-AT-StG"/>
-                                                        <constraint firstAttribute="trailing" secondItem="FZQ-dB-bBI" secondAttribute="trailing" constant="10" id="Kdz-bo-D1G"/>
-                                                        <constraint firstItem="FZQ-dB-bBI" firstAttribute="leading" secondItem="V4U-rB-DBZ" secondAttribute="leading" constant="10" id="frE-eQ-E37"/>
-                                                    </constraints>
-                                                </view>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_holder_map" translatesAutoresizingMaskIntoConstraints="NO" id="FZQ-dB-bBI">
+                                                    <rect key="frame" x="0.0" y="39" width="414" height="276"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="V4U-rB-DBZ" firstAttribute="leading" secondItem="dNZ-Mg-J0e" secondAttribute="leading" id="Ll5-ep-RaU"/>
-                                                <constraint firstAttribute="trailing" secondItem="V4U-rB-DBZ" secondAttribute="trailing" id="Vsq-IC-Xjz"/>
                                                 <constraint firstItem="aCP-D5-lKj" firstAttribute="top" secondItem="dNZ-Mg-J0e" secondAttribute="topMargin" constant="2" id="ZId-hb-CEU"/>
+                                                <constraint firstAttribute="bottom" secondItem="FZQ-dB-bBI" secondAttribute="bottom" id="bhC-l3-FiU"/>
                                                 <constraint firstItem="aCP-D5-lKj" firstAttribute="leading" secondItem="dNZ-Mg-J0e" secondAttribute="leadingMargin" constant="10" id="eQm-4B-XG1"/>
-                                                <constraint firstAttribute="bottom" secondItem="V4U-rB-DBZ" secondAttribute="bottom" id="pPz-sa-QYX"/>
-                                                <constraint firstItem="V4U-rB-DBZ" firstAttribute="top" secondItem="aCP-D5-lKj" secondAttribute="bottom" constant="5" id="yuN-GN-k9R"/>
+                                                <constraint firstItem="FZQ-dB-bBI" firstAttribute="leading" secondItem="dNZ-Mg-J0e" secondAttribute="leading" id="jCY-Ph-y5R"/>
+                                                <constraint firstItem="FZQ-dB-bBI" firstAttribute="top" secondItem="aCP-D5-lKj" secondAttribute="bottom" constant="5" id="rRh-nG-i7D"/>
+                                                <constraint firstAttribute="trailing" secondItem="FZQ-dB-bBI" secondAttribute="trailing" id="v8Z-xN-WdC"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1321,7 +1297,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4zd-7s-oTb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1193" y="684"/>
+            <point key="canvasLocation" x="-1194.2028985507247" y="683.96739130434787"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="dZA-To-zIS">
@@ -1380,7 +1356,7 @@
                                         <rect key="frame" x="0.0" y="168" width="414" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CD6-qh-jWZ" id="onI-gO-eb1">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="314.66666666666669"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Map" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VJn-5v-FEU">
@@ -1392,29 +1368,17 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T5V-8e-ebL">
-                                                    <rect key="frame" x="0.0" y="39" width="414" height="275.66666666666669"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_holder_map" translatesAutoresizingMaskIntoConstraints="NO" id="XKH-hr-9ba">
-                                                            <rect key="frame" x="10" y="5" width="394" height="265.66666666666669"/>
-                                                        </imageView>
-                                                    </subviews>
-                                                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="bottom" secondItem="XKH-hr-9ba" secondAttribute="bottom" constant="5" id="6y7-lS-ROT"/>
-                                                        <constraint firstItem="XKH-hr-9ba" firstAttribute="leading" secondItem="T5V-8e-ebL" secondAttribute="leading" constant="10" id="WKW-Yq-Lqe"/>
-                                                        <constraint firstAttribute="trailing" secondItem="XKH-hr-9ba" secondAttribute="trailing" constant="10" id="hj2-Eb-xbs"/>
-                                                        <constraint firstItem="XKH-hr-9ba" firstAttribute="top" secondItem="T5V-8e-ebL" secondAttribute="top" constant="5" id="owX-DF-GnE"/>
-                                                    </constraints>
-                                                </view>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_holder_map" translatesAutoresizingMaskIntoConstraints="NO" id="XKH-hr-9ba">
+                                                    <rect key="frame" x="0.0" y="39" width="414" height="276"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="XKH-hr-9ba" secondAttribute="bottom" id="1HG-Ua-uUG"/>
                                                 <constraint firstItem="VJn-5v-FEU" firstAttribute="top" secondItem="onI-gO-eb1" secondAttribute="topMargin" constant="2" id="3SO-jP-Ovl"/>
-                                                <constraint firstAttribute="trailing" secondItem="T5V-8e-ebL" secondAttribute="trailing" id="KVD-60-nFj"/>
-                                                <constraint firstItem="T5V-8e-ebL" firstAttribute="top" secondItem="VJn-5v-FEU" secondAttribute="bottom" constant="5" id="U6c-Y1-1pu"/>
-                                                <constraint firstAttribute="bottom" secondItem="T5V-8e-ebL" secondAttribute="bottom" id="Uwd-XH-gaY"/>
+                                                <constraint firstItem="XKH-hr-9ba" firstAttribute="leading" secondItem="onI-gO-eb1" secondAttribute="leading" id="SwA-2W-m9T"/>
                                                 <constraint firstItem="VJn-5v-FEU" firstAttribute="leading" secondItem="onI-gO-eb1" secondAttribute="leadingMargin" constant="10" id="YAF-Am-9GJ"/>
-                                                <constraint firstItem="T5V-8e-ebL" firstAttribute="leading" secondItem="onI-gO-eb1" secondAttribute="leading" id="orZ-jR-UW9"/>
+                                                <constraint firstAttribute="trailing" secondItem="XKH-hr-9ba" secondAttribute="trailing" id="hVt-UA-RJp"/>
+                                                <constraint firstItem="XKH-hr-9ba" firstAttribute="top" secondItem="VJn-5v-FEU" secondAttribute="bottom" constant="5" id="lnu-Bn-Tc2"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1459,7 +1423,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nqN-5b-39a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1194" y="1385"/>
+            <point key="canvasLocation" x="-1194.2028985507247" y="1384.2391304347827"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="ruZ-Tc-U9b">
@@ -1518,7 +1482,7 @@
                                         <rect key="frame" x="0.0" y="168" width="414" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ney-aV-bZb" id="8vu-OO-mpg">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="314.66666666666669"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Map" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="T5F-wK-DeY">
@@ -1530,29 +1494,17 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tP6-fA-XnE">
-                                                    <rect key="frame" x="0.0" y="39" width="414" height="275.66666666666669"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_holder_map" translatesAutoresizingMaskIntoConstraints="NO" id="Vuu-yc-GW9">
-                                                            <rect key="frame" x="10" y="5" width="394" height="265.66666666666669"/>
-                                                        </imageView>
-                                                    </subviews>
-                                                    <color key="backgroundColor" red="0.25356571509999998" green="0.21609875589999999" blue="0.1211692657" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="bottom" secondItem="Vuu-yc-GW9" secondAttribute="bottom" constant="5" id="8mD-ju-E5i"/>
-                                                        <constraint firstItem="Vuu-yc-GW9" firstAttribute="top" secondItem="tP6-fA-XnE" secondAttribute="top" constant="5" id="JEL-94-5sh"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Vuu-yc-GW9" secondAttribute="trailing" constant="10" id="mh4-GS-QZ5"/>
-                                                        <constraint firstItem="Vuu-yc-GW9" firstAttribute="leading" secondItem="tP6-fA-XnE" secondAttribute="leading" constant="10" id="rBM-58-TSf"/>
-                                                    </constraints>
-                                                </view>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_holder_map" translatesAutoresizingMaskIntoConstraints="NO" id="Vuu-yc-GW9">
+                                                    <rect key="frame" x="0.0" y="39" width="414" height="276"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="tP6-fA-XnE" secondAttribute="bottom" id="81P-dU-bdP"/>
-                                                <constraint firstItem="tP6-fA-XnE" firstAttribute="top" secondItem="T5F-wK-DeY" secondAttribute="bottom" constant="5" id="RbD-cx-H9I"/>
-                                                <constraint firstItem="tP6-fA-XnE" firstAttribute="leading" secondItem="8vu-OO-mpg" secondAttribute="leading" id="YZL-Xr-Twz"/>
+                                                <constraint firstItem="Vuu-yc-GW9" firstAttribute="top" secondItem="T5F-wK-DeY" secondAttribute="bottom" constant="5" id="16Z-lL-nID"/>
+                                                <constraint firstItem="Vuu-yc-GW9" firstAttribute="leading" secondItem="8vu-OO-mpg" secondAttribute="leading" id="2mP-VV-uWA"/>
+                                                <constraint firstAttribute="trailing" secondItem="Vuu-yc-GW9" secondAttribute="trailing" id="FqS-dj-QvM"/>
                                                 <constraint firstItem="T5F-wK-DeY" firstAttribute="leading" secondItem="8vu-OO-mpg" secondAttribute="leadingMargin" constant="10" id="fPj-Du-YMh"/>
                                                 <constraint firstItem="T5F-wK-DeY" firstAttribute="top" secondItem="8vu-OO-mpg" secondAttribute="topMargin" constant="2" id="uVw-Sl-su0"/>
-                                                <constraint firstAttribute="trailing" secondItem="tP6-fA-XnE" secondAttribute="trailing" id="ywY-7k-vWU"/>
+                                                <constraint firstAttribute="bottom" secondItem="Vuu-yc-GW9" secondAttribute="bottom" id="x1n-oh-dkQ"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1597,7 +1549,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1SW-a0-Uwj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1174" y="2043"/>
+            <point key="canvasLocation" x="-1175.3623188405797" y="2042.9347826086957"/>
         </scene>
     </scenes>
     <resources>
