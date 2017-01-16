@@ -12,6 +12,7 @@ class DetailsViewController: UIViewController {
     @IBOutlet var tableView: UITableView!
     
     private var dataSource = DetailsDataSource()
+    private var delegate = DetailsDelegate()
     
     // MARK: View life cycle
     
@@ -30,5 +31,6 @@ class DetailsViewController: UIViewController {
     
     private func setupTableView() {
         self.tableView.dataSource = dataSource
+        self.tableView.delegate = delegate
     }
 }
