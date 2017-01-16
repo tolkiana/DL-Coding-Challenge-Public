@@ -182,6 +182,13 @@
                         </constraints>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="cityName" destination="4b7-4R-ghF" id="C6V-8e-G0j"/>
+                        <outlet property="moreInfoTitle" destination="h5S-KB-grz" id="rb8-mv-ZKY"/>
+                        <outlet property="moreInfoValue" destination="Zai-TO-N0j" id="0iB-iv-Yxl"/>
+                        <outlet property="moreInfoView" destination="yDA-wG-tDA" id="1mr-GH-SyC"/>
+                        <outlet property="temperatureInfo" destination="wyb-4j-ylj" id="F5w-28-7RT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -603,7 +610,7 @@
                                         <rect key="frame" x="0.0" y="168" width="414" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ji0-Xf-F3L" id="IZX-Qa-sCB">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="314.66666666666669"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Map" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8cv-jn-RUR">
@@ -832,6 +839,13 @@
                         </constraints>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="cityName" destination="u1c-4F-P1b" id="JhK-eu-y8c"/>
+                        <outlet property="moreInfoTitle" destination="yJB-i1-mYF" id="cE4-XN-bXf"/>
+                        <outlet property="moreInfoValue" destination="Fxl-xz-mBU" id="UHM-Rw-1rD"/>
+                        <outlet property="moreInfoView" destination="FCd-bx-3Dd" id="uZa-Dv-EHl"/>
+                        <outlet property="temperatureInfo" destination="s7O-zc-uJ7" id="yHh-gN-rx0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Yu-lH-RkG" sceneMemberID="firstResponder"/>
             </objects>
@@ -1000,6 +1014,13 @@
                         </constraints>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="cityName" destination="ZSN-SH-eWw" id="AaK-Xs-a8I"/>
+                        <outlet property="moreInfoTitle" destination="Vht-8f-e6S" id="O9e-if-86z"/>
+                        <outlet property="moreInfoValue" destination="OCw-oZ-3sc" id="9GD-Uf-FHU"/>
+                        <outlet property="moreInfoView" destination="fQX-dM-4Ac" id="Kdd-Lp-oJZ"/>
+                        <outlet property="temperatureInfo" destination="Le2-QJ-yEn" id="xH0-20-RLk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ykh-Ol-uDg" sceneMemberID="firstResponder"/>
             </objects>
@@ -1168,6 +1189,13 @@
                         </constraints>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="cityName" destination="jS5-Sc-IOI" id="8VK-ZF-Vb2"/>
+                        <outlet property="moreInfoTitle" destination="DPO-LF-U4J" id="tti-8E-sLP"/>
+                        <outlet property="moreInfoValue" destination="RWj-qt-g3i" id="X2K-ZQ-Q09"/>
+                        <outlet property="moreInfoView" destination="87A-jh-TO6" id="gZ4-Hx-O14"/>
+                        <outlet property="temperatureInfo" destination="P7K-Hh-hji" id="euK-dv-dfV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29m-nF-de6" sceneMemberID="firstResponder"/>
             </objects>
@@ -1230,7 +1258,7 @@
                                         <rect key="frame" x="0.0" y="168" width="414" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2t4-Ir-GaW" id="dNZ-Mg-J0e">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="314.66666666666669"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Map" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aCP-D5-lKj">
@@ -1356,7 +1384,7 @@
                                         <rect key="frame" x="0.0" y="168" width="414" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CD6-qh-jWZ" id="onI-gO-eb1">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="314.66666666666669"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Map" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VJn-5v-FEU">
@@ -1482,7 +1510,7 @@
                                         <rect key="frame" x="0.0" y="168" width="414" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ney-aV-bZb" id="8vu-OO-mpg">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="314.66666666666669"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Map" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="T5F-wK-DeY">
@@ -1578,6 +1606,6 @@
         <image name="water" width="6" height="8"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WAT-MD-UoW"/>
+        <segue reference="WOa-ZG-Wer"/>
     </inferredMetricsTieBreakers>
 </document>

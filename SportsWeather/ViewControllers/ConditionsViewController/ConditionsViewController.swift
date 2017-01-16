@@ -9,5 +9,10 @@
 import UIKit
 
 class ConditionsViewController: UIViewController {
+    @IBOutlet var cityName: UILabel!
+    @IBOutlet var temperatureInfo: UIStackView!
+    @IBOutlet var moreInfoTitle: UILabel!
+    @IBOutlet var moreInfoValue: UILabel!
+    @IBOutlet var moreInfoView: UIStackView!
 }
 
