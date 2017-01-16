@@ -13,9 +13,17 @@ class DetailsViewController: UIViewController {
     
     private var dataSource = DetailsDataSource()
     
+    // MARK: View life cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupTableView()
+    }
+    
+    // MARK: IBActions
+    
+    @IBAction func close(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     // MARK: Private methods
