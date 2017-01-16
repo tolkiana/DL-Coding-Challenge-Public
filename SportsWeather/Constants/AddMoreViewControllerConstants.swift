@@ -9,7 +9,9 @@
 import Foundation
 
 struct AddMoreViewControllerConstants {
-    
+    static let numberOfSections = 1
+    static let numberOfRows = 4
+
     enum Rows: Int {
         case annArbor
         case losAngeles
