@@ -31,6 +31,7 @@
 		384AD11E1E2C340C00361908 /* ForecastDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD11D1E2C340C00361908 /* ForecastDataSource.swift */; };
 		384AD1221E2C49B800361908 /* DetailsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD1211E2C49B800361908 /* DetailsDelegate.swift */; };
 		384AD1241E2C56A100361908 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD1231E2C56A100361908 /* UIView+Animations.swift */; };
+		384AD1261E2C5C0D00361908 /* ConditionsViewController+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384AD1251E2C5C0D00361908 /* ConditionsViewController+Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		384AD11D1E2C340C00361908 /* ForecastDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastDataSource.swift; sourceTree = "<group>"; };
 		384AD1211E2C49B800361908 /* DetailsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsDelegate.swift; sourceTree = "<group>"; };
 		384AD1231E2C56A100361908 /* UIView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		384AD1251E2C5C0D00361908 /* ConditionsViewController+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConditionsViewController+Animations.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				381D2BBD1E2B12E200F6ECE6 /* ConditionsViewController.swift */,
+				384AD1251E2C5C0D00361908 /* ConditionsViewController+Animations.swift */,
 			);
 			name = ConditionsViewController;
 			path = ViewControllers/ConditionsViewController;
@@ -363,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384AD1261E2C5C0D00361908 /* ConditionsViewController+Animations.swift in Sources */,
 				381D2B981E2AD81E00F6ECE6 /* ForecastTableViewCell.swift in Sources */,
 				381D2B9C1E2AD9D000F6ECE6 /* MapTableViewCell.swift in Sources */,
 				381D2BB91E2B0B6F00F6ECE6 /* DetailsViewController.swift in Sources */,

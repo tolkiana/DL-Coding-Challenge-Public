@@ -36,4 +36,10 @@ struct Constants {
         static let viewWidth: Float = 80
         static let viewHeight: Float = 100
     }
+    
+    struct Animations {
+        static let fadeInDuration: TimeInterval = 2.0
+        static let slideInDuration: TimeInterval = 1.0
+        static let slideOutDuration: TimeInterval = 1.0
+    }
 }
