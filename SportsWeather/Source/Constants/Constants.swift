@@ -44,4 +44,8 @@ struct Constants {
         static let slideOutMoreInfoDuration: TimeInterval = 2.0
         static let slideOutMoreInfoDelay: TimeInterval = 2.0
     }
+    
+    struct WeatherAPI {
+        static let apiKey = "myKey"
+    }
 }
