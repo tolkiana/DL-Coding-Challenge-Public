@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// This class talks to the https://www.wunderground.com API to get weather information
 class WeatherAPI {
 
     /// Gets the current conditions for a given city.
