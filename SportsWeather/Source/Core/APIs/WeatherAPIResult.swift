@@ -8,6 +8,10 @@
 
 import Foundation
 
+/// Defines the possible results we can get from making a request to WeatherAPI
+///
+/// - success: Returns the CurrentWeather
+/// - failure: Returns a code error 
 enum WeatherAPIResult {
     case success(currrentWeather: CurrentWeather)
     case failure(error: WeatherAPIError)
