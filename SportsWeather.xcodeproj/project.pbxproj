@@ -31,6 +31,8 @@
 		3804F7211E2DA7E20000D15E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3804F71F1E2DA7E20000D15E /* LaunchScreen.storyboard */; };
 		3804F7221E2DA7E20000D15E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3804F7201E2DA7E20000D15E /* Main.storyboard */; };
 		3804F7261E2DB5CE0000D15E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F7251E2DB5CE0000D15E /* AppDelegate.swift */; };
+		3804F72E1E2DBEF50000D15E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3804F72D1E2DBEF50000D15E /* Alamofire.framework */; };
+		3804F72F1E2DBEF50000D15E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3804F72D1E2DBEF50000D15E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		381D2B671E2A8FD100F6ECE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B661E2A8FD100F6ECE6 /* Assets.xcassets */; };
 		381D2BAB1E2AEB0400F6ECE6 /* Date+UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BAA1E2AEB0400F6ECE6 /* Date+UtilsTests.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +54,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3804F72F1E2DBEF50000D15E /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +86,7 @@
 		3804F71F1E2DA7E20000D15E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3804F7201E2DA7E20000D15E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3804F7251E2DB5CE0000D15E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3804F72D1E2DBEF50000D15E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		381D2B5C1E2A8FD100F6ECE6 /* SportsWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381D2B661E2A8FD100F6ECE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		381D2B6B1E2A8FD100F6ECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3804F72E1E2DBEF50000D15E /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +198,7 @@
 		381D2B531E2A8FD100F6ECE6 = {
 			isa = PBXGroup;
 			children = (
+				3804F72D1E2DBEF50000D15E /* Alamofire.framework */,
 				381D2B5E1E2A8FD100F6ECE6 /* SportsWeather */,
 				381D2B731E2A8FD200F6ECE6 /* SportsWeatherTests */,
 				381D2B5D1E2A8FD100F6ECE6 /* Products */,
@@ -578,6 +584,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SportsWeather/Source/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = SportsWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -595,6 +602,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SportsWeather/Source/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = SportsWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
