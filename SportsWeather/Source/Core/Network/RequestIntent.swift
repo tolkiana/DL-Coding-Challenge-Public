@@ -1,5 +1,5 @@
 //
-//  Request.swift
+//  RequestIntent.swift
 //  SportsWeather
 //
 //  Created by Nelida Velazquez on 1/16/17.
@@ -9,8 +9,8 @@
 import Foundation
 
 /// Defines the parameters needed to create a request
-protocol Request {
-    /// This is the specific resource to get.
+protocol RequestIntent {
+    /// This is the specific resource to get. E.g: conditions/
     var endpoint: String { get }
     /// HTTPMethod for the request
     var method: HTTPMethod { get }
