@@ -8,10 +8,11 @@
 
 import UIKit
 
-class AddMoreViewController: UIViewController {
+class AddMoreViewController: UIViewController, UITableViewDelegate {
     @IBOutlet var tableView: UITableView!
     
     private var dataSource = AddMoreDataSource()
+    private var delegate = AddMoreDelegate()
     
     // MARK: View life cycle
     
@@ -29,6 +30,9 @@ class AddMoreViewController: UIViewController {
     // MARK: Private methods
     
     private func setupTableView() {
+        self.delegate.controller = self
         self.tableView.dataSource = dataSource
+        self.tableView.delegate = delegate
     }
+
 }
