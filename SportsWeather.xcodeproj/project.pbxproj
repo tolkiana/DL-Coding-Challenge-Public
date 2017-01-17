@@ -34,7 +34,6 @@
 		3804F7281E2DB6810000D15E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3804F7271E2DB6810000D15E /* Alamofire.framework */; };
 		3804F7291E2DB6810000D15E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3804F7271E2DB6810000D15E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		381D2B671E2A8FD100F6ECE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B661E2A8FD100F6ECE6 /* Assets.xcassets */; };
-		381D2B751E2A8FD200F6ECE6 /* SportsWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B741E2A8FD200F6ECE6 /* SportsWeatherTests.swift */; };
 		381D2BAB1E2AEB0400F6ECE6 /* Date+UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BAA1E2AEB0400F6ECE6 /* Date+UtilsTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -92,7 +91,6 @@
 		381D2B661E2A8FD100F6ECE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		381D2B6B1E2A8FD100F6ECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		381D2B701E2A8FD200F6ECE6 /* SportsWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		381D2B741E2A8FD200F6ECE6 /* SportsWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsWeatherTests.swift; sourceTree = "<group>"; };
 		381D2B761E2A8FD200F6ECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		381D2BAA1E2AEB0400F6ECE6 /* Date+UtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+UtilsTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -238,7 +236,6 @@
 			isa = PBXGroup;
 			children = (
 				381D2BA71E2AE9F800F6ECE6 /* Extensions */,
-				381D2B741E2A8FD200F6ECE6 /* SportsWeatherTests.swift */,
 				381D2B761E2A8FD200F6ECE6 /* Info.plist */,
 			);
 			path = SportsWeatherTests;
@@ -474,7 +471,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				381D2BAB1E2AEB0400F6ECE6 /* Date+UtilsTests.swift in Sources */,
-				381D2B751E2A8FD200F6ECE6 /* SportsWeatherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
