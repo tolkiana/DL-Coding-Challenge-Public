@@ -163,6 +163,13 @@
 			path = DetailsViewController;
 			sourceTree = "<group>";
 		};
+		3804F7231E2DAFCA0000D15E /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
 		381D2B531E2A8FD100F6ECE6 = {
 			isa = PBXGroup;
 			children = (
@@ -297,6 +304,7 @@
 				3804F6F01E2D93E00000D15E /* Models */,
 				3804F6EF1E2D93D80000D15E /* Services */,
 				3804F6EE1E2D93CF0000D15E /* Network */,
+				3804F7231E2DAFCA0000D15E /* Persistance */,
 				3804F6ED1E2D93C50000D15E /* APIs */,
 			);
 			name = Core;
