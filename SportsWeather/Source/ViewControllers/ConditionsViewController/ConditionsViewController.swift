@@ -20,7 +20,6 @@ class ConditionsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.startAnimations()
-        NetworkManager.test()
     }
 }
 
