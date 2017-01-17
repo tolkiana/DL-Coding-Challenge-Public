@@ -2,7 +2,7 @@
 
 ![SportsWeather](https://raw.githubusercontent.com/tolkiana/DL-Coding-Challenge-Public/nelida/SportsWeather/Assets.xcassets/AppIcon.appiconset/weather@40.png)
 
-Sports Weather is an app that provides realtime weather information but unlike any reagular weather app _Sports Weather_ is foucused in users that practice outdoor activires providing information about appropiate weather conditions for their activities.
+Sports Weather is an app that provides realtime weather information but unlike any regular weather app, _Sports Weather_ is foucused in users that practice outdoor activites providing information about appropiate weather conditions for their favorite sports.
 
 Some outdoor activities might include:
   - Climbing
