@@ -33,6 +33,8 @@
 		3804F7261E2DB5CE0000D15E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F7251E2DB5CE0000D15E /* AppDelegate.swift */; };
 		3804F72E1E2DBEF50000D15E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3804F72D1E2DBEF50000D15E /* Alamofire.framework */; };
 		3804F72F1E2DBEF50000D15E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3804F72D1E2DBEF50000D15E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3804F7331E2DC2D60000D15E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F7321E2DC2D60000D15E /* NetworkManager.swift */; };
+		3804F7361E2DC4FA0000D15E /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F7351E2DC4FA0000D15E /* NetworkManagerTests.swift */; };
 		381D2B671E2A8FD100F6ECE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B661E2A8FD100F6ECE6 /* Assets.xcassets */; };
 		381D2BAB1E2AEB0400F6ECE6 /* Date+UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BAA1E2AEB0400F6ECE6 /* Date+UtilsTests.swift */; };
 /* End PBXBuildFile section */
@@ -87,6 +89,8 @@
 		3804F7201E2DA7E20000D15E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3804F7251E2DB5CE0000D15E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3804F72D1E2DBEF50000D15E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		3804F7321E2DC2D60000D15E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3804F7351E2DC4FA0000D15E /* NetworkManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		381D2B5C1E2A8FD100F6ECE6 /* SportsWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381D2B661E2A8FD100F6ECE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		381D2B6B1E2A8FD100F6ECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 		3804F6EE1E2D93CF0000D15E /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				3804F7321E2DC2D60000D15E /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -195,6 +200,14 @@
 			path = Source/AppDelegate;
 			sourceTree = "<group>";
 		};
+		3804F7341E2DC4D60000D15E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3804F7351E2DC4FA0000D15E /* NetworkManagerTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		381D2B531E2A8FD100F6ECE6 = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +248,7 @@
 		381D2B731E2A8FD200F6ECE6 /* SportsWeatherTests */ = {
 			isa = PBXGroup;
 			children = (
+				3804F7341E2DC4D60000D15E /* Network */,
 				381D2BA71E2AE9F800F6ECE6 /* Extensions */,
 				381D2B761E2A8FD200F6ECE6 /* Info.plist */,
 			);
@@ -446,6 +460,7 @@
 				3804F6F31E2D9D0D0000D15E /* Date+Utils.swift in Sources */,
 				3804F70F1E2D9E020000D15E /* DetailsDelegate.swift in Sources */,
 				3804F71C1E2D9E670000D15E /* ForecastViewModel.swift in Sources */,
+				3804F7331E2DC2D60000D15E /* NetworkManager.swift in Sources */,
 				3804F71B1E2D9E670000D15E /* ForecastGroupViewModel.swift in Sources */,
 				3804F6F41E2D9D0D0000D15E /* UIView+Animations.swift in Sources */,
 				3804F7031E2D9DCF0000D15E /* CitiesViewController.swift in Sources */,
@@ -470,6 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3804F7361E2DC4FA0000D15E /* NetworkManagerTests.swift in Sources */,
 				381D2BAB1E2AEB0400F6ECE6 /* Date+UtilsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
