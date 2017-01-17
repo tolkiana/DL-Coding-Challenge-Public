@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html"> Docs</a> (43% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html"> Reference</a>
+        <img id="carat" src="img/carat.png" />
+          Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/WeatherAPI.html">WeatherAPI</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums.html#/s:O13SportsWeather16WeatherAPIResult">WeatherAPIResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions.html#/s:V10Foundation4Date">Date</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/Request.html">Request</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/ForecastGroupViewModel.html">ForecastGroupViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ForecastViewModel.html">ForecastViewModel</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <a href='#sports-weather' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='sports-weather'>Sports Weather</h1>
+
+<p><img src="https://raw.githubusercontent.com/tolkiana/DL-Coding-Challenge-Public/nelida/SportsWeather/Assets.xcassets/AppIcon.appiconset/weather@40.png" alt="SportsWeather"></p>
+
+<p>Sports Weather is an app that provides realtime weather information but unlike any regular weather app, <em>Sports Weather</em> is foucused in users that practice outdoor activites providing information about appropiate weather conditions for their favorite sports.</p>
+
+<p>Some outdoor activities might include:
+  - Climbing
+  - Hiking
+  - Running
+  - Biking
+  - Skiing
+  - Camping, etc.</p>
+<a href='#app-features' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='app-features'>App Features</h3>
+
+<ul>
+<li>Get realtime information based on your current location.</li>
+<li>Daily Forecast.</li>
+<li>Hourly Forecast.</li>
+<li>Searching weather for different Cities.</li>
+<li>Maps with weather in nearby Cities.</li>
+<li>Notifications about weather conditions for specific Sports or Activities.</li>
+<li>Profile and customization about favorite sports and desired conditions.</li>
+</ul>
+<a href='#project-structure' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='project-structure'>Project Structure</h3>
+
+<p>The code of the project can be found in this repository in the <code>Source/</code> folder which it&rsquo;s organized with the following folder structure:</p>
+
+<ul>
+<li>Storyboards</li>
+<li>Core</li>
+<li>Extensions</li>
+<li>Constants</li>
+<li>ViewControllers</li>
+<li>Views</li>
+<li>Cells</li>
+<li>ViewModels</li>
+</ul>
+
+<p>The <code>Core/</code> folder contains important classes that support the base architecture of the application and its organized in the following folders.</p>
+
+<ul>
+<li>Models</li>
+<li>Services</li>
+<li>APIs</li>
+<li>Network</li>
+<li>Persistance</li>
+</ul>
+<a href='#top-level-architecture' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='top-level-architecture'>Top level Architecture</h3>
+
+<p>The following diagram represents the top level architecture of the app.</p>
+
+<p><img src="https://raw.githubusercontent.com/tolkiana/DL-Coding-Challenge-Public/nelida/Documentation/Architecture.png" alt="SportsWeather"></p>
+<a href='#third-party-libraries' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='third-party-libraries'>Third Party Libraries</h3>
+
+<table><thead>
+<tr>
+<th>Library</th>
+<th style="text-align: center">Version</th>
+<th style="text-align: right">Installed with</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Alamofire</td>
+<td style="text-align: center">4.3</td>
+<td style="text-align: right">Carthage</td>
+</tr>
+<tr>
+<td>Mockingjay</td>
+<td style="text-align: center">2.0</td>
+<td style="text-align: right">Cocoapods</td>
+</tr>
+</tbody></table>
+<a href='#code-documentation' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='code-documentation'>Code Documentation</h3>
+
+<p>The Projects uses <a href="https://github.com/realm/jazzy">Jazzy</a> third party library to generate Apple Like documentation.</p>
+
+<p>You can find the gnerated documentation under the <code>Documentation/</code> folder.</p>
+<a href='#continuos-integration' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='continuos-integration'>Continuos Integration</h3>
+
+<p><em>To Do</em></p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-01-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
