@@ -35,7 +35,7 @@
 		3804F72F1E2DBEF50000D15E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3804F72D1E2DBEF50000D15E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3804F7331E2DC2D60000D15E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F7321E2DC2D60000D15E /* NetworkManager.swift */; };
 		3804F7361E2DC4FA0000D15E /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F7351E2DC4FA0000D15E /* NetworkManagerTests.swift */; };
-		3804F73E1E2DCB390000D15E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F73D1E2DCB390000D15E /* Request.swift */; };
+		3804F73E1E2DCB390000D15E /* RequestIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F73D1E2DCB390000D15E /* RequestIntent.swift */; };
 		3804F7401E2DCBBD0000D15E /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F73F1E2DCBBD0000D15E /* HTTPMethod.swift */; };
 		3804F7421E2DCF4C0000D15E /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F7411E2DCF4C0000D15E /* City.swift */; };
 		3804F7441E2DCFFA0000D15E /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F7431E2DCFFA0000D15E /* CurrentWeather.swift */; };
@@ -98,7 +98,7 @@
 		3804F72D1E2DBEF50000D15E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		3804F7321E2DC2D60000D15E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		3804F7351E2DC4FA0000D15E /* NetworkManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
-		3804F73D1E2DCB390000D15E /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		3804F73D1E2DCB390000D15E /* RequestIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestIntent.swift; sourceTree = "<group>"; };
 		3804F73F1E2DCBBD0000D15E /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		3804F7411E2DCF4C0000D15E /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		3804F7431E2DCFFA0000D15E /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				3804F7321E2DC2D60000D15E /* NetworkManager.swift */,
-				3804F73D1E2DCB390000D15E /* Request.swift */,
+				3804F73D1E2DCB390000D15E /* RequestIntent.swift */,
 				3804F73F1E2DCBBD0000D15E /* HTTPMethod.swift */,
 			);
 			path = Network;
@@ -489,7 +489,7 @@
 				3804F7441E2DCFFA0000D15E /* CurrentWeather.swift in Sources */,
 				3804F7501E2DD92E0000D15E /* WeatherAPI.swift in Sources */,
 				3804F7031E2D9DCF0000D15E /* CitiesViewController.swift in Sources */,
-				3804F73E1E2DCB390000D15E /* Request.swift in Sources */,
+				3804F73E1E2DCB390000D15E /* RequestIntent.swift in Sources */,
 				3804F7091E2D9DE90000D15E /* ConditionsViewController+Animations.swift in Sources */,
 				3804F7131E2D9E1A0000D15E /* ForecastView.swift in Sources */,
 				3804F7101E2D9E020000D15E /* DetailsViewController.swift in Sources */,
