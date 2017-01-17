@@ -48,7 +48,7 @@ The `Core/` folder contains important classes that support the base architecture
 
 The following diagram represents the top level architecture of the app.
 
-![SportsWeather](https://raw.githubusercontent.com/tolkiana/DL-Coding-Challenge-Public/nelida/SportsWeather/Documentation/Architecture.png)
+![SportsWeather](https://raw.githubusercontent.com/tolkiana/DL-Coding-Challenge-Public/nelida/Documentation/Architecture.png)
 
 
 ### Third Party Libraries
@@ -56,6 +56,7 @@ The following diagram represents the top level architecture of the app.
 | Library        | Version      | Installed with  |
 | -------------  |:-------------:| --------------:|
 | Alamofire      | 4.3          | Carthage        |
+| Mockingjay     | 2.0          | Cocoapods       |
 
 
 ### Code Documentation
