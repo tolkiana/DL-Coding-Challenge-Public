@@ -20,11 +20,11 @@ Some outdoor activities might include:
 - Searching weather for different Cities.
 - Maps with weather in nearby Cities.
 - Notifications about weather conditions for specific Sports or Activities.
-- Profile and customization about favorite sports and desire conditions.
+- Profile and customization about favorite sports and desired conditions.
 
 ### Project Structure
 
-The Source code of the project can be found in this repository in the `Source/` folder which it's organized with the following folder structure:
+The code of the project can be found in this repository in the `Source/` folder which it's organized with the following folder structure:
 
 - Storyboards
 - Core
