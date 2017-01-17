@@ -31,6 +31,8 @@
 		3804F7211E2DA7E20000D15E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3804F71F1E2DA7E20000D15E /* LaunchScreen.storyboard */; };
 		3804F7221E2DA7E20000D15E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3804F7201E2DA7E20000D15E /* Main.storyboard */; };
 		3804F7261E2DB5CE0000D15E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804F7251E2DB5CE0000D15E /* AppDelegate.swift */; };
+		3804F7281E2DB6810000D15E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3804F7271E2DB6810000D15E /* Alamofire.framework */; };
+		3804F7291E2DB6810000D15E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3804F7271E2DB6810000D15E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		381D2B671E2A8FD100F6ECE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381D2B661E2A8FD100F6ECE6 /* Assets.xcassets */; };
 		381D2B751E2A8FD200F6ECE6 /* SportsWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2B741E2A8FD200F6ECE6 /* SportsWeatherTests.swift */; };
 		381D2BAB1E2AEB0400F6ECE6 /* Date+UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D2BAA1E2AEB0400F6ECE6 /* Date+UtilsTests.swift */; };
@@ -45,6 +47,20 @@
 			remoteInfo = SportsWeather;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3804F72A1E2DB6810000D15E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3804F7291E2DB6810000D15E /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3804F6F11E2D9D0D0000D15E /* Date+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
@@ -71,6 +87,7 @@
 		3804F71F1E2DA7E20000D15E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3804F7201E2DA7E20000D15E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3804F7251E2DB5CE0000D15E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3804F7271E2DB6810000D15E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = SportsWeather/Source/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		381D2B5C1E2A8FD100F6ECE6 /* SportsWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381D2B661E2A8FD100F6ECE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		381D2B6B1E2A8FD100F6ECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3804F7281E2DB6810000D15E /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +200,7 @@
 		381D2B531E2A8FD100F6ECE6 = {
 			isa = PBXGroup;
 			children = (
+				3804F7271E2DB6810000D15E /* Alamofire.framework */,
 				381D2B5E1E2A8FD100F6ECE6 /* SportsWeather */,
 				381D2B731E2A8FD200F6ECE6 /* SportsWeatherTests */,
 				381D2B5D1E2A8FD100F6ECE6 /* Products */,
@@ -330,6 +349,7 @@
 				381D2B581E2A8FD100F6ECE6 /* Sources */,
 				381D2B591E2A8FD100F6ECE6 /* Frameworks */,
 				381D2B5A1E2A8FD100F6ECE6 /* Resources */,
+				3804F72A1E2DB6810000D15E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -565,6 +585,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZX8Q22G36;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SportsWeather/Source/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SportsWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tolkiana.SportsWeather;
@@ -578,6 +602,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZX8Q22G36;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SportsWeather/Source/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SportsWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tolkiana.SportsWeather;
