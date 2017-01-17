@@ -1,0 +1,187 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/AppDelegate/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Cells/ForecastTableViewCell.swift",
+      "line": 11,
+      "symbol": "ForecastTableViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Cells/MapTableViewCell.swift",
+      "line": 11,
+      "symbol": "MapTableViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Constants/AddMoreViewControllerConstants.swift",
+      "line": 11,
+      "symbol": "AddMoreViewControllerConstants",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Constants/Constants.swift",
+      "line": 11,
+      "symbol": "Constants",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Constants/DetailsViewControllerConstants.swift",
+      "line": 11,
+      "symbol": "DetailsViewControllerConstants",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Core/APIs/WeatherAPIError.swift",
+      "line": 11,
+      "symbol": "WeatherAPIError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Core/APIs/WeatherAPIResult.swift",
+      "line": 16,
+      "symbol": "WeatherAPIResult.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Core/APIs/WeatherAPIResult.swift",
+      "line": 17,
+      "symbol": "WeatherAPIResult.failure",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Core/ForecastDataSource.swift",
+      "line": 11,
+      "symbol": "ForecastDataSource",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Core/Models/City.swift",
+      "line": 11,
+      "symbol": "City",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Core/Models/CurrentWeather.swift",
+      "line": 11,
+      "symbol": "CurrentWeather",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Core/Network/HTTPMethod.swift",
+      "line": 11,
+      "symbol": "HTTPMethod",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Core/Network/NetworkManager.swift",
+      "line": 12,
+      "symbol": "NetworkManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Extensions/Date+Utils.swift",
+      "line": 12,
+      "symbol": "Date.hourString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Extensions/Date+Utils.swift",
+      "line": 19,
+      "symbol": "Date.dayNameString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/ViewControllers/AddMoreViewController/AddMoreDataSource.swift",
+      "line": 11,
+      "symbol": "AddMoreDataSource",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/ViewControllers/AddMoreViewController/AddMoreViewController.swift",
+      "line": 11,
+      "symbol": "AddMoreViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/ViewControllers/CitiesViewController/CitiesViewController.swift",
+      "line": null,
+      "symbol": "CitiesViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/ViewControllers/CitiesViewController/CitiesViewController.swift",
+      "line": 11,
+      "symbol": "CitiesViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/ViewControllers/ConditionsViewController/ConditionsViewController.swift",
+      "line": null,
+      "symbol": "ConditionsViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/ViewControllers/ConditionsViewController/ConditionsViewController.swift",
+      "line": 11,
+      "symbol": "ConditionsViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/ViewControllers/DetailsViewController/DetailsDataSource.swift",
+      "line": 11,
+      "symbol": "DetailsDataSource",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/ViewControllers/DetailsViewController/DetailsDelegate.swift",
+      "line": 11,
+      "symbol": "DetailsDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/ViewControllers/DetailsViewController/DetailsViewController.swift",
+      "line": 11,
+      "symbol": "DetailsViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tolkiana/Documents/apps/SportsWeather/SportsWeather/Source/Views/ForecastView.swift",
+      "line": 11,
+      "symbol": "ForecastView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/tolkiana/Documents/apps/SportsWeather"
+}
